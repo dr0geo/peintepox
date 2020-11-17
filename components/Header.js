@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Container = styled.div`
   align-items: center;
   background-color: white;
-  border-bottom: 10px solid #CE2026;
+  border-bottom: 15px solid #CE2026;
   display: flex;
   justify-content: space-evenly;
   margin: auto;
@@ -15,15 +15,7 @@ const Container = styled.div`
   z-index: 100;
 `;
 
-const Anchor = styled.a`
-  color: black;
-  text-decoration: none;
-  &:hover {
-    cursor: pointer;
-  }
-`;
-
-const Img = styled.img`
+const Logo = styled.img`
   display: block;
   height: 60px;
   width: 60px;
@@ -32,13 +24,13 @@ const Img = styled.img`
 const Header = () => {
   return (
     <Container>
-      <Link href="/"><a><Img src="/images/logo.png" alt="Logo Peintepox" /></a></Link>
-      <Link href="/"><Anchor>ACCUEIL</Anchor></Link>
-      <Link href="/peinture-thermolaquage"><Anchor>Peinture Thermolaquage</Anchor></Link>
-      <Link href="/sablage"><Anchor>Sablage</Anchor></Link>
-      <Link href="/decapage"><Anchor>Décapage</Anchor></Link>
-      <Link href="/traitement-anti-corrosion"><Anchor>Traitement anti-corrosion</Anchor></Link>
-      <Link href="/contact"><Anchor>Contact</Anchor></Link>
+      <Link href="/"><a><Logo src="/images/logo.png" alt="Logo Peintepox" /></a></Link>
+      <Link href="/"><a>ACCUEIL</a></Link>
+      <Link href="/thermolaquage"><a>Thermolaquage</a></Link>
+      <Link href="/sablage"><a>Sablage</a></Link>
+      <Link href="/decapage"><a>Décapage</a></Link>
+      <Link href="/traitement-anti-corrosion"><a>Traitement anti-corrosion</a></Link>
+      <Link href="/contact"><a>Contact</a></Link>
     </Container>
   );
 }
