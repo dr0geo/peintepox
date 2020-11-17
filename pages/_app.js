@@ -29,6 +29,11 @@ const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
   }
 
+  h4 {
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+
   a {
     color: black;
     text-decoration: none;
@@ -38,6 +43,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
+    line-height: 1.5rem;
     max-width: 800px;
   }
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Background = styled.div`
-  background: url('/images/bg.jpeg');
+  background: url(${props => props.url});
   background-attachment: fixed;
   background-size: cover;
   height: 200px;

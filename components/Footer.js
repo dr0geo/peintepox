@@ -19,6 +19,10 @@ const StyledDiv = styled.div`
   flex-direction: column;
   margin: 0 40px;
   width: 235px;
+  & > div {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
   & > p > a {
     color: white;
     text-decoration: underline;
