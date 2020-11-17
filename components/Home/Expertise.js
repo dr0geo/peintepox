@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const Container = styled.div`
   display: flex;
@@ -11,7 +12,7 @@ const Card = styled.div`
   background: url('/images/card.jpeg') center;
   height: 350px;
   margin: 0 20px;
-  min-width: 350px;
+  width: 350px;
 `;
 
 const Button = styled.button`
@@ -34,10 +35,10 @@ const Expertise = () => {
     <section>
       <h2>Notre savoir-faire</h2>
       <Container>
-        <Card><Button>Thermolaquage</Button></Card>
-        <Card><Button>Sablage</Button></Card>
-        <Card><Button>Décapage</Button></Card>
-        <Card><Button>Traitement anti-corrosion</Button></Card>
+        <Card><Link href="/thermolaquage"><Button>Thermolaquage</Button></Link></Card>
+        <Card><Link href="/sablage"><Button>Sablage</Button></Link></Card>
+        <Card><Link href="/decapage"><Button>Décapage</Button></Link></Card>
+        <Card><Link href="/traitement-anti-corrosion"><Button>Traitement anti-corrosion</Button></Link></Card>
       </Container>
     </section>
   );

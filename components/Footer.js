@@ -50,7 +50,7 @@ const Footer = () => {
       </StyledDiv>
       <StyledDiv>
         <h4>Où nous trouver</h4>
-        <p>63, Rue Alphonse Pluchet<br />92220 BAGNEUX</p>
+        <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX</p>
       </StyledDiv>
       <StyledDiv>
         <h4>Mentions Légales</h4>

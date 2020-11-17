@@ -45,9 +45,14 @@ const TextArea = styled.textarea`
   padding: 10px 5px;
   resize: none;
   width: 400px;
+  &::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+  }
 `;
 
 const Button = styled.button`
+  margin-top: 10px;
   padding: 5px 15px;
 `;
 
@@ -64,15 +69,16 @@ const ContactForm = () => {
       <Form action="https://api.mailslurp.com/forms" method="post" encType="multipart/form-data">
         <input id="ownEmail" name="_to" type="hidden" />
         <input name="_subject" type="hidden" value="Demande via le site Peintepox" />
+        <input name="_successMessage" type="hidden" value="Votre formulaire a bien été envoyé" />
         <Input name="Prenom" type="text" placeholder="Prénom *" required />
         <Input name="Nom" type="text" placeholder="Nom *" required />
         <Input name="Email" type="email" placeholder="Email *" required />
         <Input name="Telephone" type="tel" placeholder="Téléphone" />
         <TextArea name="Message" type="text" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
         <label htmlFor="attachment">Joindre des fichiers :</label>
-        <Input multiple id="attachment" name="files" type="file" accept="image/,.pdf" />
+        <Input multiple id="attachment" name="files" type="file" accept="image/*,.pdf" />
         <p>* tous les champs comprenant une astérisque doivent être remplis</p>
-        <Button type="submit" onClick={handleClick}>Envoyer la demande</Button>
+        <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
       </Form>
     </>
   );

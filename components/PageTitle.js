@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const PageTitle = styled.div`
-  background: url(${props => props.url}) center;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)), url(${props => props.url});
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   color: white;
   display: flex;

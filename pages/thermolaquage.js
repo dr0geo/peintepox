@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Thermolaquage = () => {
-  const titleUrl = '/images/sablage.jpeg';
+  const titleUrl = '/images/card.jpeg';
 
   return (
     <>

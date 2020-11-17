@@ -5,7 +5,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Decapage = () => {
-  const titleUrl = '/images/card.jpeg';
+  const titleUrl = '/images/sablage.jpeg';
 
   return (
     <>

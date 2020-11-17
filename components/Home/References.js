@@ -14,9 +14,9 @@ const Container = styled.div`
 `;
 const Companies = styled.img`
   display: block;
-  height: 80px;
+  height: 100px;
   margin: 0 30px;
-  width: 80px;
+  width: 100px;
 `;
 
 const References = () => {
@@ -32,12 +32,12 @@ const References = () => {
       <p>Nous vous garantissons un résultat précis et fiable.</p>
       <h2>Ils nous ont fait confiance</h2>
       <Container>
-        <Companies src="" alt="" />
-        <Companies src="" alt="" />
-        <Companies src="" alt="" />
-        <Companies src="" alt="" />
-        <Companies src="" alt="" />
-        <Companies src="" alt="" />
+        <Companies src="/images/companies/armee.jpg" alt="Logo Ministère des Armées" />
+        <Companies src="/images/companies/sncf.jpg" alt="Logo SNCF" />
+        <Companies src="/images/companies/ratp.jpg" alt="Logo RATP" />
+        <Companies src="/images/companies/bon-marche.jpg" alt="Logo Le Bon Marché" />
+        <Companies src="/images/companies/dior.png" alt="Logo Dior" />
+        <Companies src="/images/companies/paul-smith.png" alt="Logo Paul Smith" />
       </Container>
     </Section>
   );
