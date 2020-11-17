@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
   }
 
@@ -25,17 +25,8 @@ const GlobalStyle = createGlobalStyle`
     display: inline-block;
     font-size: 1.2rem;
     font-weight: 300;
-    line-height: 2rem;
-    margin: 0;
+    margin: 10px 0;
     text-transform: uppercase;
-  }
-
-  ion-icon {
-    display: inline-block;
-    height: 1.2rem;
-    padding-right: 8px;
-    vertical-align: middle;
-    width: 1.2rem;
   }
 
   a {
@@ -47,8 +38,17 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    margin: 0;
     max-width: 800px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    line-height: 1.8rem;
+    list-style-position: inside;
+    list-style-type: circle;
   }
 `;
 

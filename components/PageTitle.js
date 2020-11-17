@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const PageTitle = styled.div`
-  background: url('/images/home.jpeg') center;
+  background: url(${props => props.url}) center;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
   display: flex;

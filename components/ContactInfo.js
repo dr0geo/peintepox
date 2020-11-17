@@ -18,9 +18,23 @@ const Anchor = styled.a`
 const StyledDiv = styled.div`
   margin: 10px 0;
   padding: 0 60px;
-  width: 15%;
+  width: 17%;
   & + & {
     border-left: 1px solid white;
+  }
+  & > ion-icon {
+    display: inline-block;
+    height: 1.2rem;
+    padding-right: 8px;
+    vertical-align: middle;
+    width: 1.2rem;
+  }
+  & > h3 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  & > p {
+    margin-top: 0;
   }
 `;
 
@@ -40,7 +54,7 @@ const ContactInfo = () => {
       <StyledDiv>
         <ion-icon name="time-outline"></ion-icon>
         <h3>Horaires d'ouverture</h3>
-        <p>Lundi - vendredi : 8:00 - 18:00</p>
+        <p>Lundi - vendredi : 7:30 - 12:00 & 13:15 - 18:00</p>
       </StyledDiv>
     </Section>
   );

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 `;
 
 const Card = styled.div`
@@ -13,12 +14,18 @@ const Card = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: grey;
+  background-color: #2f2e2e;
   border: none;
+  color: white;
   padding: 10px 0;
   position: relative;
   top: 100%;
+  transition: opacity 0.2s ease-in-out;
   width: 100%;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.85;
+  }
 `;
 
 const Expertise = () => {
