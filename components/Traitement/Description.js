@@ -27,10 +27,10 @@ const Description = () => {
         <li>Nettoyage et préparation du support</li>
         <li>Application du produit curatif contre la rouille</li>
         <li>Application d’une couche de produit isolant</li>
-        <li><Link href="/thermolaquage"><a>Thermolaquage</a></Link></li>
+        <li><Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">Thermolaquage</a></Link></li>
       </ul><br />
       <p>Quelles que soient la forme, les dimensions et les caractéristiques de la pièce métallique à traiter, nous n’avons qu’un seul objectif : <strong>enlever toutes les parties rouillées</strong> qui ternissent son état et son aspect.</p><br />
-      <p>Dans certains cas, vous pouvez être intéressé par nos prestations de <Link href="/decapage"><a>décapage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+      <p>En fonction de votre projet, vous pourriez être intéressé par nos prestations de <Link href="/decapage"><a title="Découvrez nos prestations de décapage">décapage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
     </Section>
   );
 }

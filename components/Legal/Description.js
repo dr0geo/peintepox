@@ -46,7 +46,7 @@ const Description = () => {
       </div>
       <div>
         <h2>Règlement général sur la protection des données</h2>
-        <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir du site <Link href="/"><a>peintepox-decapage-thermolaquage.fr</a></Link> , soient conformes au règlement général sur la protection des données (RGPD). Chaque formulaire ou téléservice limite la collecte des données personnelles au strict nécessaire (minimisation des données) et indique notamment :</Paragraph>
+        <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir du site <Link href="/"><a>peintepox-decapage-thermolaquage.fr</a></Link>, soient conformes au règlement général sur la protection des données (RGPD). Chaque formulaire ou téléservice limite la collecte des données personnelles au strict nécessaire (minimisation des données) et indique notamment :</Paragraph>
         <List>
         <li>quels sont les objectifs du recueil de ces données</li>
         <li>si ces données sont obligatoires ou facultatives pour la gestion de votre demande</li>
@@ -60,7 +60,7 @@ const Description = () => {
       </div>
       <div>
         <h2>Directeur de la publication</h2>
-        <Paragraph>M. Cyriaque VIE</Paragraph>
+        <Paragraph>M. Cyriaque VIE, gérant de la SARL PEINTEPOX.</Paragraph>
       </div>
     </GridCont>
   );

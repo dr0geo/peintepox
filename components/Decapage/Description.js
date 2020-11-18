@@ -33,7 +33,7 @@ const Description = () => {
       <h2>Une technique innovante</h2>
       <p>Nous utilisons des techniques de décapage innovantes afin de redonner aux pièces métalliques, leur apparence d’antan. Les abrasifs que nous utilisons sont <strong>efficaces</strong> et <strong>n’endommagent pas</strong> la surface des ouvrages décapés.</p><br />
       <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p><br />
-      <p>Dans certains cas, vous pouvez être intéressé par nos prestations de <Link href="/sablage"><a>sablage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+      <p>En fonction de votre projet, vous pourriez être intéressé par nos prestations de <Link href="/sablage"><a title="Découvrez nos prestations de sablage">sablage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
     </Section>
   );
 }
