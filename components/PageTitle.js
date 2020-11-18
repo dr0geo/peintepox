@@ -8,12 +8,13 @@ const PageTitle = styled.div`
   color: white;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: ${props => props.isHome ? '100vh' : 'auto'};
   justify-content: center;
-  margin-bottom: -115px;
+  margin-bottom: ${props => props.isHome ? '-115px' : 'auto'};
+  min-height: 600px;
   padding: 0 6%;
-  position: relative;
-  top: -115px;
+  position: ${props => props.isHome ? 'relative' : 'static'};
+  top: -124px;
 `;
 
 export default PageTitle;

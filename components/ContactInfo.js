@@ -7,7 +7,10 @@ const Section = styled.section`
   display: flex;
   font-weight: 300;
   justify-content: center;
+  margin-bottom: ${props => props.isHome ? '-133px' : 'auto'};
   padding: 15px 0;
+  position: ${props => props.isHome ? 'relative' : 'static'};
+  top: -133px;
 `;
 
 const Anchor = styled.a`
@@ -38,9 +41,9 @@ const StyledDiv = styled.div`
   }
 `;
 
-const ContactInfo = () => {
+const ContactInfo = props => {
   return (
-    <Section>
+    <Section isHome={props.isHome}>
       <StyledDiv>
         <ion-icon name="call-outline"></ion-icon>
         <h3>Appelez-nous</h3>
