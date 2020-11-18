@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/Roboto-Regular.woff2'),
       url('/fonts/Roboto-Regular.woff');
     font-weight: 400;
+    font-display: block;
   }
 
   @font-face {
@@ -13,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/Roboto-Bold.woff2'),
       url('/fonts/Roboto-Bold.woff');
     font-weight: 700;
+    font-display: block;
   }
 
   @font-face {
@@ -20,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
     src: url('/fonts/Roboto-Light.woff2'),
       url('/fonts/Roboto-Light.woff');
     font-weight: 300;
+    font-display: block;
   }
 
   html {
