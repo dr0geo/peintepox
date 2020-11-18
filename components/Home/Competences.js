@@ -48,19 +48,14 @@ const Button = styled.button`
   background: #ce2026;
   border: 1px solid #ce2026;
   border-radius: 5px;
+  color: white;
   margin: 40px auto;
   padding: 10px 20px;
-  transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color: 0.2s ease-in-out;
   &:hover {
     background: white;
     cursor: pointer;
-    & a {
-      color: #ce2026;
-    }
-  }
-  & a {
-    color: white;
-    transition: color: 0.2s ease-in-out;
+    color: #ce2026;
   }
 `;
 
@@ -99,7 +94,7 @@ const Competences = () => {
           <p>Nous sommes spécialisés dans le traitement de surface de pièces métalliques depuis 1945.</p>
         </FlexCont>
       </Container>
-      <Button><Link href="/contact"><a>Contactez-nous pour recevoir un devis gratuit</a></Link></Button>
+      <Link href="/contact"><Button>Contactez-nous pour recevoir un devis gratuit</Button></Link>
     </Section>
   );
 }
