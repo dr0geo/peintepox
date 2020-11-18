@@ -8,9 +8,12 @@ const PageTitle = styled.div`
   color: white;
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: 100vh;
   justify-content: center;
+  margin-bottom: -115px;
   padding: 0 6%;
+  position: relative;
+  top: -115px;
 `;
 
 export default PageTitle;
