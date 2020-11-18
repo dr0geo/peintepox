@@ -21,8 +21,8 @@ const Home = () => {
       <Header active={1} />
       <main>
         <PageTitle url={titleUrl} isHome={true}>
-          <h1>Peinture thermolaquage, sablage, décapage, traitement anti-corrosion</h1>
-          <p>Peintepox, l’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de thermolaquage, sablage, décapage, traitement anti-corrosion et peinture industrielle.</p>
+          <h1>Peintepox</h1>
+          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de thermolaquage, sablage, décapage, traitement anti-corrosion et peinture industrielle.</p>
         </PageTitle>
         <ContactInfo isHome={true} />
         <Expertise />

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
 import PageTitle from '@/components/PageTitle';
+import Description from '@/components/Traitement/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
@@ -17,8 +18,9 @@ const Traitement = () => {
       <main>
         <PageTitle url={titleUrl}>
           <h1>Traitement anti-corrosion</h1>
-          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de décapage, sablage, traitement anti-corrosion, thermolaquaque et peinture industrielle.</p>
+          <p>Afin de résister aux contraintes dictées par l'environnement dans lequel sont amenées à évoluer vos pièces, un traitement anti-corrosion peut s'avérer indispensable.<br/>Peintepox vous permet de bénéficier de son expertise dans le domaine afin d'allonger la durée de vie de vos pièces métalliques.</p>
         </PageTitle>
+        <Description />
         <ContactInfo />
       </main>
       <Footer />

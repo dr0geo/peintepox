@@ -92,7 +92,7 @@ const ContactForm = () => {
         <p>* tous les champs comprenant une astérisque doivent être remplis</p>
         <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
       </Form>
-      <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir de notre site peintepox-decapage-thermolaquage.fr, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation des données collectées par ce formulaire, veuillez consulter notre <Link href="/mentions-legales"><a>politique de confidentialité</a></Link>.</Paragraph>
+      <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir de son site <Link href="/"><a>peintepox-decapage-thermolaquage.fr</a></Link>, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation des données collectées par ce formulaire, veuillez consulter notre <Link href="/mentions-legales"><a>politique de confidentialité</a></Link>.</Paragraph>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
 import PageTitle from '@/components/PageTitle';
+import Description from '@/components/Sablage/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
@@ -17,8 +18,9 @@ const Sablage = () => {
       <main>
         <PageTitle url={titleUrl}>
           <h1>Sablage</h1>
-          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de décapage, sablage, traitement anti-corrosion, thermolaquaque et peinture industrielle.</p>
+          <p>Le sablage est destiné à éliminer la peinture, les moisissures, les tâches et les salissures qui ternissent la surface d’un ouvrage ou d’une pièce.<br />Spécialiste du sablage de matériaux à base de métal ou de bois, Peintepox met son savoir-faire à votre disposition.</p>
         </PageTitle>
+        <Description />
         <ContactInfo />
       </main>
       <Footer />

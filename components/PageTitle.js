@@ -11,10 +11,13 @@ const PageTitle = styled.div`
   height: ${props => props.isHome ? '100vh' : 'auto'};
   justify-content: center;
   margin-bottom: ${props => props.isHome ? '-115px' : 'auto'};
-  min-height: 600px;
+  min-height: 650px;
   padding: 0 6%;
   position: ${props => props.isHome ? 'relative' : 'static'};
   top: -124px;
+  & > p {
+    max-width: 600px;
+  }
 `;
 
 export default PageTitle;

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const Section = styled.section`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  & > p {
+    margin: auto;
+    text-align: center;
+  }
   & a {
     border-bottom: 1px solid black;
   }

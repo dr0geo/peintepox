@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-size: 2.8rem;
     max-width: 800px;
+    text-transform: uppercase;
   }
 
   h2 {
@@ -45,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     line-height: 1.5rem;
-    max-width: 800px;
+    max-width: 900px;
   }
 
   ul {
