@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const Form = styled.form`
   align-items: center;
@@ -6,7 +7,7 @@ const Form = styled.form`
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 50px auto;
+  margin: 50px auto 0px auto;
   max-width: 500px;
   padding: 20px 0;
   & > p {
@@ -56,6 +57,17 @@ const Button = styled.button`
   padding: 5px 15px;
 `;
 
+const Paragraph = styled.p`
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin: 0 auto 50px auto;
+  text-align: justify;
+  width: 500px;
+  & > a {
+    border-bottom: 1px solid black;
+  }
+`;
+
 const handleClick = () => {
   const name = 'geoffroy.vie';
   const domain = 'gmail.com';
@@ -80,6 +92,7 @@ const ContactForm = () => {
         <p>* tous les champs comprenant une astérisque doivent être remplis</p>
         <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
       </Form>
+      <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir de notre site peintepox-decapage-thermolaquage.fr, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation des données collectées par ce formulaire, veuillez consulter notre <Link href="/mentions-legales"><a>politique de confidentialité</a></Link>.</Paragraph>
     </>
   );
 }

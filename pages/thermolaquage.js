@@ -14,11 +14,17 @@ const Thermolaquage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Thermolaquage</title>
       </Head>
-      <Header />
+      <Header active={2} />
       <main>
         <PageTitle url={titleUrl}>
-          <h1>Peinture thermolaquage</h1>
-          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de décapage, sablage, traitement anti-corrosion, thermolaquaque et peinture industrielle.</p>
+          <h1>Thermolaquage</h1>
+          <p>L’entreprise Peintepox possède une solide expertise dans l’application de peinture en poudre thermodurcissable, ou thermolaquage. Utiliser le thermolaquage pour vos pièces présente de nombreux avantages :</p>
+          <ul>
+            <li>Haute résistance aux chocs et à la corrosion</li>
+            <li>Bonne tenue des couleurs</li>
+            <li>Couleur uniforme</li>
+            <li>Large choix de teintes, de textures et d’effets (métallisés, sablé, etc...)</li>
+          </ul>
         </PageTitle>
         <Description />
         <ContactInfo />

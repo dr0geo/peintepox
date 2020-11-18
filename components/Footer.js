@@ -22,6 +22,15 @@ const StyledDiv = styled.div`
   & > div {
     margin: 10px 0;
     padding: 10px 0;
+    & > a {
+      transition: opacity 0.2s ease-in-out;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+  & > ul a {
+    color: white;
   }
   & > p > a {
     color: white;
@@ -42,10 +51,10 @@ const Footer = () => {
       <StyledDiv>
         <h4>Nos services</h4>
         <ul>
-          <li>Thermolaquage</li>
-          <li>Sablage</li>
-          <li>Décapage</li>
-          <li>Traitement anti-corrosion</li>
+          <li><Link href="/thermolaquage"><a>Thermolaquage</a></Link></li>
+          <li><Link href="/sablage"><a>Sablage</a></Link></li>
+          <li><Link href="/decapage"><a>Décapage</a></Link></li>
+          <li><Link href="/traitement-anti-corrosion"><a>Traitement anti-corrosion</a></Link></li>
         </ul>
       </StyledDiv>
       <StyledDiv>

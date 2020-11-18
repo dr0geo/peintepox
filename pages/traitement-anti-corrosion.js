@@ -13,7 +13,7 @@ const Traitement = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Traitement anti-corrosion</title>
       </Head>
-      <Header />
+      <Header active={5} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Traitement anti-corrosion</h1>

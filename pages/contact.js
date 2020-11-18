@@ -13,7 +13,7 @@ const Contact = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Contact</title>
       </Head>
-      <Header />
+      <Header active={6} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Contactez-nous</h1>

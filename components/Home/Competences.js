@@ -22,10 +22,13 @@ const Container = styled.div`
 
 const FlexCont = styled.div`
   align-items: center;
+  background-color: hsla(0deg, 0%, 100%, 0.5);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 0 60px;
+  margin: 40px 40px 0 40px;
   max-width: 200px;
+  padding: 20px;
 `;
 
 const Circle = styled.div`
@@ -36,11 +39,15 @@ const Circle = styled.div`
   display: flex;
   height: 60px;
   justify-content: center;
-  margin: 10px 0;
+  position: relative;
+  top: -50px;
   width: 60px;
   & > ion-icon {
     height: 40px;
     width: 40px;
+  }
+  & + h3 {
+    margin-top: -20px;
   }
 `;
 
@@ -49,9 +56,9 @@ const Button = styled.button`
   border: 1px solid #ce2026;
   border-radius: 5px;
   color: white;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 10px 20px;
-  transition: background 0.2s ease-in-out, color: 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
   &:hover {
     background: white;
     cursor: pointer;
@@ -62,15 +69,6 @@ const Button = styled.button`
 const Competences = () => {
   return (
     <Section>
-      <h2>Nos domaines de compétences</h2>
-      <ul>
-        <li>Thermolaquage sur tous supports férreux</li>
-        <li>Sablage en cabine (5m/5m)</li>
-        <li>Décapage chimique, acier, bois, aluminium</li>
-        <li>Peinture liquide sur tous supports acier, médium et plastique</li>
-      </ul>
-      <p>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, des organismes publics et de l’Armée.</p>
-      <p>Nos méthodes de décapage sont adaptées à une variété de supports (acier et bois).</p>
       <h2>Nos atouts</h2>
       <Container>
         <FlexCont>

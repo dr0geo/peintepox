@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 
+const Paragraph = styled.p`
+  margin: 0 auto 40px auto;
+  text-align: center;
+`;
+
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -9,10 +14,23 @@ const Container = styled.div`
 `;
 
 const Card = styled.div`
-  background: url('/images/card.jpeg') center;
   height: 350px;
   margin: 0 20px;
   width: 350px;
+  &:nth-of-type(1) {
+    background: url('/images/card.jpeg') center;
+  }
+  &:nth-of-type(2) {
+    background: url('/images/sablage.jpeg') center;
+  }
+  &:nth-of-type(3) {
+    background: url('/images/chem-pickling.jpg') center;
+    background-size: cover;
+  }
+  &:nth-of-type(4) {
+    background: url('/images/corrosion.jpeg') center;
+    background-size: cover;
+  }
 `;
 
 const Button = styled.button`
@@ -34,6 +52,7 @@ const Expertise = () => {
   return (
     <section>
       <h2>Notre savoir-faire</h2>
+      <Paragraph>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, ainsi que des organismes publics.</Paragraph>
       <Container>
         <Card><Link href="/thermolaquage"><Button>Thermolaquage</Button></Link></Card>
         <Card><Link href="/sablage"><Button>Sablage</Button></Link></Card>

@@ -12,13 +12,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     max-width: 800px;
   }
 
   h2 {
     padding: 30px 0;
     text-align: center;
+    text-transform: uppercase;
   }
 
   h3 {
