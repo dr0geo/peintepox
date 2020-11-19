@@ -3,9 +3,15 @@ import Link from 'next/link';
 
 const Container = styled.footer`
   background-color: #2f2e2e;
+  }
+`;
+
+const Wrapper = styled.div`
   color: white;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  max-width: 1250px;
   & ion-icon {
     fill: white;
     height: 35px;
@@ -80,31 +86,33 @@ const StyledDiv = styled.div`
 const Footer = () => {
   return (
     <Container>
-      <StyledDiv>
-        <h4>Suivez Peintepox</h4>
-        <div>
-          <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-          <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
-        </div>
-      </StyledDiv>
-      <StyledDiv>
-        <h4>Nos services</h4>
-        <ul>
-          <li><Link href="/thermolaquage"><a>Thermolaquage</a></Link></li>
-          <li><Link href="/peinture-fluide"><a>Peinture fluide</a></Link></li>
-          <li><Link href="/sablage"><a>Sablage</a></Link></li>
-          <li><Link href="/decapage"><a>Décapage</a></Link></li>
-          <li><Link href="/traitement-anti-corrosion"><a>Traitement anti-corrosion</a></Link></li>
-        </ul>
-      </StyledDiv>
-      <StyledDiv>
-        <h4>Où nous trouver</h4>
-        <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX</p>
-      </StyledDiv>
-      <StyledDiv>
-        <h4>Mentions Légales</h4>
-        <p>Cliquez <Link href='/mentions-legales'><a>ici</a></Link> pour voir nos mentions légales.</p>
-      </StyledDiv>
+      <Wrapper>
+        <StyledDiv>
+          <h4>Suivez Peintepox</h4>
+          <div>
+            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+          </div>
+        </StyledDiv>
+        <StyledDiv>
+          <h4>Nos services</h4>
+          <ul>
+            <li><Link href="/thermolaquage"><a>Thermolaquage</a></Link></li>
+            <li><Link href="/peinture-fluide"><a>Peinture fluide</a></Link></li>
+            <li><Link href="/sablage"><a>Sablage</a></Link></li>
+            <li><Link href="/decapage"><a>Décapage</a></Link></li>
+            <li><Link href="/traitement-anti-corrosion"><a>Traitement anti-corrosion</a></Link></li>
+          </ul>
+        </StyledDiv>
+        <StyledDiv>
+          <h4>Où nous trouver</h4>
+          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX</p>
+        </StyledDiv>
+        <StyledDiv>
+          <h4>Mentions Légales</h4>
+          <p>Cliquez <Link href='/mentions-legales'><a>ici</a></Link> pour voir nos mentions légales.</p>
+        </StyledDiv>
+      </Wrapper> 
     </Container>
   );
 }

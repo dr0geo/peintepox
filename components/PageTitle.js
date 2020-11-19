@@ -23,7 +23,7 @@ const PageTitle = styled.div`
   }
   @media only screen and (max-width: 900px) {
     background-attachment: scroll;
-    background-position: top 80px;
+    background-position: top 80px center;
     height: 100vh;
     margin-bottom: ${props => props.isHome ? '-72px' : '-110px'};
     position: relative;

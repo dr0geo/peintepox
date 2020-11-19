@@ -76,6 +76,7 @@ const Button = styled.button`
     color: #ce2026;
   }
   @media only screen and (max-width: 900px) {
+    font-size: 1rem;
     margin: 50px 10px;
   }
 `;

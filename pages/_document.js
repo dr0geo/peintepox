@@ -33,7 +33,6 @@ class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
-          <meta charSet="utf-8" />
           <link rel="icon" type="image/png" href="/images/logo.png" />
         </Head>
         <body>

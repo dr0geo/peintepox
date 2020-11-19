@@ -20,6 +20,7 @@ const Container = styled.div`
 `;
 
 const Card = styled.div`
+  border-radius: 5px 5px 0px 0px;
   height: 320px;
   margin: 50px 20px;
   width: 300px;
@@ -49,6 +50,7 @@ const Card = styled.div`
 const Button = styled.button`
   background-color: #2f2e2e;
   border: none;
+  border-radius: 0px 0px 5px 5px;
   color: white;
   padding: 10px 0;
   position: relative;
@@ -58,6 +60,9 @@ const Button = styled.button`
   &:hover {
     cursor: pointer;
     opacity: 0.85;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 1rem;
   }
 `;
 
