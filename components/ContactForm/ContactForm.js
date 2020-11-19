@@ -1,16 +1,36 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 
+const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+  & > div {
+    max-width: 500px;
+    width: 100%;
+  }
+  & > div:first-of-type {
+    background-image: url('/images/form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 0px 0px 5px;
+    height: auto;
+    @media only screen and (max-width: 1050px) {
+      width: 0;
+    }
+  }
+`;
+
 const Form = styled.form`
   align-items: center;
-  background-color: #e1e1e1;
-  border-radius: 5px;
+  background-color: #dbd7d6;
+  border-radius: 0px 5px 5px 0px;
   display: flex;
   flex-direction: column;
-  margin: 50px auto 0px auto;
+  margin: 0px;
   max-width: 500px;
   padding: 20px 0;
-  width: 85%;
+  width: 100%;
   & > p {
     font-size: 0.85rem;
     font-weight: 300;
@@ -20,6 +40,11 @@ const Form = styled.form`
     font-size: 0.85rem;
     margin-left: 50px;
     margin-top: 10px;
+  }
+  @media only screen and (max-width: 1050px) {
+    border-radius: 5px;
+    margin: 0px auto;
+    width: 85%;
   }
 `;
 
@@ -64,11 +89,16 @@ const Paragraph = styled.p`
   font-size: 0.7rem;
   line-height: 1rem;
   margin: 0 auto 50px auto;
-  max-width: 500px;
+  max-width: 1000px;
+  padding-left: 0;
+  padding-right: 0;
   text-align: justify;
-  width: 85%;
+  width: 100%;
   & > a {
     border-bottom: 1px solid black;
+  }
+  @media only screen and (max-width: 1050px) {
+    max-width: 500px;
   }
 `;
 
@@ -82,20 +112,25 @@ const ContactForm = () => {
   return (
     <>
       <h2>Nous nous engageons à vous répondre dans les plus brefs délais</h2>
-      <Form action="https://api.mailslurp.com/forms" method="post" encType="multipart/form-data">
-        <input id="ownEmail" name="_to" type="hidden" />
-        <input name="_subject" type="hidden" value="Demande via le site Peintepox" />
-        <input name="_redirectTo" type="hidden" value="https://peintepox.vercel.app/success" />
-        <Input name="Prenom" type="text" placeholder="Prénom *" required />
-        <Input name="Nom" type="text" placeholder="Nom *" required />
-        <Input name="Email" type="email" placeholder="Email *" required />
-        <Input name="Telephone" type="tel" placeholder="Téléphone" />
-        <TextArea name="Message" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
-        <label htmlFor="attachment">Joindre des fichiers :</label>
-        <Input id="attachment" multiple name="files" type="file" accept="image/*,.pdf" />
-        <p>* tous les champs comprenant une astérisque doivent être remplis</p>
-        <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
-      </Form>
+      <Wrapper>
+        <div></div>
+        <div>
+          <Form action="https://api.mailslurp.com/forms" method="post" encType="multipart/form-data">
+            <input id="ownEmail" name="_to" type="hidden" />
+            <input name="_subject" type="hidden" value="Demande via le site Peintepox" />
+            <input name="_redirectTo" type="hidden" value="https://peintepox.vercel.app/success" />
+            <Input name="Prenom" type="text" placeholder="Prénom *" required />
+            <Input name="Nom" type="text" placeholder="Nom *" required />
+            <Input name="Email" type="email" placeholder="Email *" required />
+            <Input name="Telephone" type="tel" placeholder="Téléphone" />
+            <TextArea name="Message" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
+            <label htmlFor="attachment">Joindre des fichiers :</label>
+            <Input id="attachment" multiple name="files" type="file" accept="image/*,.pdf" />
+            <p>* tous les champs comprenant une astérisque doivent être remplis</p>
+            <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
+          </Form>
+        </div>
+      </Wrapper>
       <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir de son site <Link href="/"><a>peintepox-decapage-thermolaquage.fr</a></Link>, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation des données collectées par ce formulaire, veuillez consulter notre <Link href="/mentions-legales"><a>politique de confidentialité</a></Link>.</Paragraph>
     </>
   );

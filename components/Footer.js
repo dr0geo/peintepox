@@ -50,8 +50,8 @@ const StyledDiv = styled.div`
     padding-right: 0;
   }
   & > p > a {
+    border-bottom: 1px solid white;
     color: white;
-    text-decoration: underline;
   }
   @media only screen and (max-width: 1150px) {
     margin: 0 10px;
@@ -106,7 +106,7 @@ const Footer = () => {
         </StyledDiv>
         <StyledDiv>
           <h4>Où nous trouver</h4>
-          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX</p>
+          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX<br /><a href="https://www.google.com/maps/place/Peint%C3%A9pox/@48.7997621,2.3000693,15z/data=!4m5!3m4!1s0x0:0x1c1be8ded7e92c91!8m2!3d48.7997621!4d2.3000693" target="_blank">Voir sur Google Maps</a></p>
         </StyledDiv>
         <StyledDiv>
           <h4>Mentions Légales</h4>
