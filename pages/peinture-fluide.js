@@ -5,7 +5,7 @@ import Description from '@/components/Peinture/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
-const Peinture = () => {
+const Peinture = props => {
   const titleUrl = '/images/sablage.jpeg';
 
   return (
@@ -14,7 +14,7 @@ const Peinture = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Peinture fluide</title>
       </Head>
-      <Header active={3} />
+      <Header active={3} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Peinture fluide</h1>

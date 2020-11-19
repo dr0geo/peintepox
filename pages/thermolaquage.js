@@ -5,7 +5,7 @@ import Description from '@/components/Thermolaquage/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
-const Thermolaquage = () => {
+const Thermolaquage = props => {
   const titleUrl = '/images/card.jpeg';
 
   return (
@@ -14,7 +14,7 @@ const Thermolaquage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Thermolaquage</title>
       </Head>
-      <Header active={2} />
+      <Header active={2} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Thermolaquage</h1>

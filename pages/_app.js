@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { useState } from 'react';
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -61,10 +62,14 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const MyApp = ({ Component, pageProps }) => {
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => setIsClicked(() => !isClicked);
+
   return (
     <>
       <GlobalStyle />
-      <Component {...pageProps} />
+      <Component {...pageProps} isClicked={isClicked} handleClick={handleClick} />
     </>
   );
 }

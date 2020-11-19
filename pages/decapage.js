@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 
-const Decapage = () => {
+const Decapage = props => {
   const titleUrl = '/images/sablage.jpeg';
 
   return (
@@ -15,7 +15,7 @@ const Decapage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Décapage</title>
       </Head>
-      <Header active={5} />
+      <Header active={5} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Décapage</h1>

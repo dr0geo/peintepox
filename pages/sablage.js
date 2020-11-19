@@ -5,7 +5,7 @@ import Description from '@/components/Sablage/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
-const Sablage = () => {
+const Sablage = props => {
   const titleUrl = '/images/bg.jpeg';
 
   return (
@@ -14,7 +14,7 @@ const Sablage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Sablage</title>
       </Head>
-      <Header active={4} />
+      <Header active={4} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Sablage</h1>

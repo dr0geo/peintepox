@@ -5,7 +5,7 @@ import Description from '@/components/Traitement/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
-const Traitement = () => {
+const Traitement = props => {
   const titleUrl = '/images/bg.jpeg';
 
   return (
@@ -14,7 +14,7 @@ const Traitement = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Traitement anti-corrosion</title>
       </Head>
-      <Header active={6} />
+      <Header active={6} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Traitement anti-corrosion</h1>

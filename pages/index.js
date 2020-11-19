@@ -8,7 +8,7 @@ import Background from '@/components/Background';
 import References from '@/components/Home/References';
 import Footer from '@/components/Footer';
 
-const Home = () => {
+const Home = props => {
   const titleUrl = '/images/home.jpeg';
   const bgUrl = '/images/bg.jpeg';
   
@@ -18,7 +18,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Accueil</title>
       </Head>
-      <Header active={1} />
+      <Header active={1} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl} isHome={true}>
           <h1>Peintepox</h1>

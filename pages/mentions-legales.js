@@ -5,7 +5,7 @@ import Description from '@/components/Legal/Description';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
-const Legal = () => {
+const Legal = props => {
   const titleUrl = '/images/mentions.jpg';
 
   return (
@@ -14,7 +14,7 @@ const Legal = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Mentions Légales</title>
       </Head>
-      <Header />
+      <Header isClicked={props.isClicked} handleClick={props.handleClick} />
       <PageTitle url={titleUrl}>
         <h1>Mentions Légales</h1>
       </PageTitle>

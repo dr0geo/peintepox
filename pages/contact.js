@@ -4,7 +4,7 @@ import PageTitle from '@/components/PageTitle';
 import ContactForm from '@/components/ContactForm/ContactForm';
 import Footer from '@/components/Footer';
 
-const Contact = () => {
+const Contact = props => {
   const titleUrl = '/images/contact.jpg';
 
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Contact</title>
       </Head>
-      <Header active={7} />
+      <Header active={7} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Contactez-nous</h1>
