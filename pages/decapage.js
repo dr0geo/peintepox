@@ -15,7 +15,7 @@ const Decapage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Décapage</title>
       </Head>
-      <Header active={4} />
+      <Header active={5} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Décapage</h1>

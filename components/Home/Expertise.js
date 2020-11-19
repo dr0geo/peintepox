@@ -14,20 +14,24 @@ const Container = styled.div`
 `;
 
 const Card = styled.div`
-  height: 350px;
+  height: 320px;
   margin: 0 20px;
-  width: 350px;
+  width: 300px;
   &:nth-of-type(1) {
     background: url('/images/card.jpeg') center;
   }
   &:nth-of-type(2) {
-    background: url('/images/sablage.jpeg') center;
+    background: url('/images/fluid.jpg') center;
+    background-size: cover;
   }
   &:nth-of-type(3) {
+    background: url('/images/sablage.jpeg') center;
+  }
+  &:nth-of-type(4) {
     background: url('/images/chem-pickling.jpg') center;
     background-size: cover;
   }
-  &:nth-of-type(4) {
+  &:nth-of-type(5) {
     background: url('/images/corrosion.jpeg') center;
     background-size: cover;
   }
@@ -55,6 +59,7 @@ const Expertise = () => {
       <Paragraph>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, ainsi que des organismes publics.</Paragraph>
       <Container>
         <Card><Link href="/thermolaquage"><Button>Thermolaquage</Button></Link></Card>
+        <Card><Link href="/peinture-fluide"><Button>Peinture fluide</Button></Link></Card>
         <Card><Link href="/sablage"><Button>Sablage</Button></Link></Card>
         <Card><Link href="/decapage"><Button>Décapage</Button></Link></Card>
         <Card><Link href="/traitement-anti-corrosion"><Button>Traitement anti-corrosion</Button></Link></Card>

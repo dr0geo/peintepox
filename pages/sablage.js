@@ -14,7 +14,7 @@ const Sablage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Sablage</title>
       </Head>
-      <Header active={3} />
+      <Header active={4} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Sablage</h1>

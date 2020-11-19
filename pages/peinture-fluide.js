@@ -14,7 +14,7 @@ const Peinture = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox : Peinture fluide</title>
       </Head>
-      <Header active={6} />
+      <Header active={3} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Peinture fluide</h1>

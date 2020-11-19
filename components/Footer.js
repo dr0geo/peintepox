@@ -52,10 +52,10 @@ const Footer = () => {
         <h4>Nos services</h4>
         <ul>
           <li><Link href="/thermolaquage"><a>Thermolaquage</a></Link></li>
+          <li><Link href="/peinture-fluide"><a>Peinture fluide</a></Link></li>
           <li><Link href="/sablage"><a>Sablage</a></Link></li>
           <li><Link href="/decapage"><a>Décapage</a></Link></li>
           <li><Link href="/traitement-anti-corrosion"><a>Traitement anti-corrosion</a></Link></li>
-          <li><Link href="/peinture-fluide"><a>Peinture fluide</a></Link></li>
         </ul>
       </StyledDiv>
       <StyledDiv>

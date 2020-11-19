@@ -40,10 +40,10 @@ const Header = props => {
         <Link href="/"><a><Logo src="/images/logo.png" alt="Logo Peintepox" /></a></Link>
         <Link href="/"><SpecialLink isActive={props.active === 1 ? true : false}>ACCUEIL</SpecialLink></Link>
         <Link href="/thermolaquage"><SpecialLink isActive={props.active === 2 ? true : false}>Thermolaquage</SpecialLink></Link>
-        <Link href="/sablage"><SpecialLink isActive={props.active === 3 ? true : false}>Sablage</SpecialLink></Link>
-        <Link href="/decapage"><SpecialLink isActive={props.active === 4 ? true : false}>Décapage</SpecialLink></Link>
-        <Link href="/traitement-anti-corrosion"><SpecialLink isActive={props.active === 5 ? true : false}>Traitement anti-corrosion</SpecialLink></Link>
-        <Link href="/peinture-fluide"><SpecialLink isActive={props.active === 6 ? true : false}>Peinture Fluide</SpecialLink></Link>
+        <Link href="/peinture-fluide"><SpecialLink isActive={props.active === 3 ? true : false}>Peinture Fluide</SpecialLink></Link>
+        <Link href="/sablage"><SpecialLink isActive={props.active === 4 ? true : false}>Sablage</SpecialLink></Link>
+        <Link href="/decapage"><SpecialLink isActive={props.active === 5 ? true : false}>Décapage</SpecialLink></Link>
+        <Link href="/traitement-anti-corrosion"><SpecialLink isActive={props.active === 6 ? true : false}>Traitement anti-corrosion</SpecialLink></Link>
         <Link href="/contact"><SpecialLink isActive={props.active === 7 ? true : false}>Contact</SpecialLink></Link>
         
       </NavMenu>
