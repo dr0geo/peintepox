@@ -12,7 +12,7 @@ const Thermolaquage = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox : Thermolaquage</title>
+        <title>Peintepox - Thermolaquage</title>
         <meta name="description" content="Découvrez les prestations de thermolaquage proposées par la société Peintépox, située en région parisienne." />
       </Head>
       <Header active={2} isClicked={props.isClicked} handleClick={props.handleClick} />

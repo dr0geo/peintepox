@@ -12,7 +12,7 @@ const Legal = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox : Mentions Légales</title>
+        <title>Peintepox - Mentions Légales</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <Header isClicked={props.isClicked} handleClick={props.handleClick} />

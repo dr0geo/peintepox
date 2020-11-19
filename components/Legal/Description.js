@@ -9,6 +9,9 @@ const GridCont = styled.section`
   grid-template-rows: repeat(3, auto);
   justify-items: center;
   margin-bottom: 50px;
+  & > div {
+    width: 100%;
+  }
   @media only screen and (max-width: 900px) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);

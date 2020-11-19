@@ -12,7 +12,7 @@ const Sablage = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox : Sablage</title>
+        <title>Peintepox - Sablage</title>
         <meta name="description" content="Découvrez les prestations de sablage sur métaux ou bois proposées par la société Peintépox, située en région parisienne." />
       </Head>
       <Header active={4} isClicked={props.isClicked} handleClick={props.handleClick} />
