@@ -13,9 +13,11 @@ const PageTitle = styled.div`
   justify-content: center;
   margin-bottom: ${props => props.isHome ? '-115px' : 'auto'};
   min-height: 650px;
-  padding: 0 6%;
   position: ${props => props.isHome ? 'relative' : 'static'};
   top: -124px;
+  & > h1 {
+    padding: 0 6%;
+  }
   & > p {
     max-width: 600px;
   }

@@ -50,11 +50,15 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     line-height: 1.5rem;
+    padding-left: 6%;
     max-width: 900px;
+    @media only screen and (max-width: 1000px) {
+      padding-right: 6%; 
+    }
   }
 
   ul {
-    padding: 0;
+    padding: 0 6%;
   }
 
   li {
