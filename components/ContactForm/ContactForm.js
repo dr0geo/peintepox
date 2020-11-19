@@ -85,7 +85,7 @@ const ContactForm = () => {
       <Form action="https://api.mailslurp.com/forms" method="post" encType="multipart/form-data">
         <input id="ownEmail" name="_to" type="hidden" />
         <input name="_subject" type="hidden" value="Demande via le site Peintepox" />
-        <input name="_successMessage" type="hidden" value="Votre formulaire a bien été envoyé" />
+        <input name="_redirectTo" type="hidden" value="https://peintepox.vercel.app/success" />
         <Input name="Prenom" type="text" placeholder="Prénom *" required />
         <Input name="Nom" type="text" placeholder="Nom *" required />
         <Input name="Email" type="email" placeholder="Email *" required />
