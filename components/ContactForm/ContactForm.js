@@ -92,7 +92,7 @@ const ContactForm = () => {
         <Input name="Telephone" type="tel" placeholder="Téléphone" />
         <TextArea name="Message" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
         <label htmlFor="attachment">Joindre des fichiers :</label>
-        <Input multiple name="files" type="file" accept="image/*,.pdf" />
+        <Input id="attachment" multiple name="files" type="file" accept="image/*,.pdf" />
         <p>* tous les champs comprenant une astérisque doivent être remplis</p>
         <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
       </Form>
