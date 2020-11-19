@@ -2,20 +2,20 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const Paragraph = styled.p`
-  margin: 0 auto 40px auto;
+  margin: 0 auto;
   text-align: center;
 `;
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
   padding-bottom: 50px;
 `;
 
 const Card = styled.div`
   height: 320px;
-  margin: 0 20px;
+  margin: 50px 20px;
   width: 300px;
   &:nth-of-type(1) {
     background: url('/images/card.jpeg') center;

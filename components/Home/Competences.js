@@ -18,6 +18,8 @@ const Section = styled.section`
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const FlexCont = styled.div`
@@ -26,8 +28,9 @@ const FlexCont = styled.div`
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 40px 40px 0 40px;
+  margin: 60px 40px 0 40px;
   max-width: 200px;
+  min-width: 200px;
   padding: 20px;
 `;
 

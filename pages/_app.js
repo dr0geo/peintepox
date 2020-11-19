@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-    padding: 30px 0;
+    padding: 30px 6%;
     text-align: center;
     text-transform: uppercase;
   }
@@ -51,10 +51,8 @@ const GlobalStyle = createGlobalStyle`
   p {
     line-height: 1.5rem;
     padding-left: 6%;
+    padding-right: 6%;
     max-width: 900px;
-    @media only screen and (max-width: 1000px) {
-      padding-right: 6%; 
-    }
   }
 
   ul {
@@ -65,6 +63,17 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.8rem;
     list-style-position: inside;
     list-style-type: circle;
+  }
+
+  hr {
+    display: none;
+    @media only screen and (max-width: 900px) {
+      border: none;
+      border-top: 1px solid white;
+      display: block;
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
   }
 `;
 

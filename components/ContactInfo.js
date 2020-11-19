@@ -47,9 +47,6 @@ const StyledDiv = styled.div`
     padding-left: 0;
     padding-right: 0;
   }
-  & > hr {
-    display: none;
-  }
   @media only screen and (max-width: 1100px) {
     padding: 0 25px;
   }
@@ -60,13 +57,6 @@ const StyledDiv = styled.div`
     width: 80%;
     & + & {
       border-left: none;
-    }
-    & > hr {
-      border: none;
-      border-top: 1px solid white;
-      display: block;
-      margin-top: 30px;
-      padding-bottom: 10px;
     }
   }
 `;

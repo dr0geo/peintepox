@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const PageTitle = styled.div`
   background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url(${props => props.url});
   background-attachment: fixed;
-  background-position: top 80px center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -23,6 +23,7 @@ const PageTitle = styled.div`
   }
   @media only screen and (max-width: 900px) {
     background-attachment: scroll;
+    background-position: top 80px;
     height: 100vh;
     margin-bottom: ${props => props.isHome ? '-72px' : '-90px'};
     position: relative;

@@ -5,6 +5,9 @@ const Background = styled.div`
   background-attachment: fixed;
   background-size: cover;
   height: 200px;
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export default Background;

@@ -5,12 +5,19 @@ const Container = styled.footer`
   background-color: #2f2e2e;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   & ion-icon {
     fill: white;
     height: 35px;
     margin-right: 15px;
     width: 35px;
+  }
+  @media only screen and (max-width: 900px) {
+    align-items: center;
+    flex-direction: column;
+    & ion-icon {
+      margin-right: 0;
+    }
   }
 `;
 
@@ -18,7 +25,7 @@ const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 40px;
-  width: 235px;
+  min-width: 220px;
   & > div {
     margin: 10px 0;
     padding: 10px 0;
@@ -32,9 +39,41 @@ const StyledDiv = styled.div`
   & > ul a {
     color: white;
   }
+  & > p {
+    padding-left: 0;
+    padding-right: 0;
+  }
   & > p > a {
     color: white;
     text-decoration: underline;
+  }
+  @media only screen and (max-width: 1150px) {
+    margin: 0 10px;
+    min-width: 210px;
+    & > ul {
+      padding-left: 0;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    & > h4 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    & > div > a + a {
+      margin-left: 20px;
+    }
+    & > ul {
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+    & > ul > li {
+      list-style-position: outside;
+      list-style-type: none;
+    }
   }
 `;
 

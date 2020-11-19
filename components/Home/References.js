@@ -13,13 +13,14 @@ const Section = styled.section`
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 60px;
 `;
 const Companies = styled.img`
   display: block;
   height: 100px;
-  margin: 0 30px;
+  margin: 15px 30px;
   width: 100px;
 `;
 
