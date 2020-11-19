@@ -16,8 +16,11 @@ const Wrapper = styled.section`
     border-radius: 5px 0px 0px 5px;
     height: auto;
     @media only screen and (max-width: 1050px) {
-      width: 0;
+      display: none;
     }
+  }
+  @media only screen and (max-width: 1050px) {
+    padding: 0 7%;
   }
 `;
 
@@ -44,7 +47,6 @@ const Form = styled.form`
   @media only screen and (max-width: 1050px) {
     border-radius: 5px;
     margin: 0px auto;
-    width: 85%;
   }
 `;
 
@@ -99,6 +101,7 @@ const Paragraph = styled.p`
   }
   @media only screen and (max-width: 1050px) {
     max-width: 500px;
+    width: 85%;
   }
 `;
 
