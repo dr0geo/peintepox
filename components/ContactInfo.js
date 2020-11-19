@@ -11,6 +11,11 @@ const Section = styled.section`
   padding: 15px 0;
   position: ${props => props.isHome ? 'relative' : 'static'};
   top: -133px;
+  @media only screen and (max-width: 900px) {
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
 `;
 
 const Anchor = styled.a`
@@ -20,6 +25,7 @@ const Anchor = styled.a`
 
 const StyledDiv = styled.div`
   margin: 10px 0;
+  min-width: 250px;
   padding: 0 60px;
   width: 17%;
   & + & {
@@ -38,6 +44,30 @@ const StyledDiv = styled.div`
   }
   & > p {
     margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  & > hr {
+    display: none;
+  }
+  @media only screen and (max-width: 1100px) {
+    padding: 0 25px;
+  }
+  @media only screen and (max-width: 900px) {
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    width: 80%;
+    & + & {
+      border-left: none;
+    }
+    & > hr {
+      border: none;
+      border-top: 1px solid white;
+      display: block;
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
   }
 `;
 
@@ -48,11 +78,13 @@ const ContactInfo = props => {
         <ion-icon name="call-outline"></ion-icon>
         <h3>Appelez-nous</h3>
         <p>Tel: <Anchor href="tel: +33970351037">09 70 35 10 37</Anchor></p>
+        <hr />
       </StyledDiv>
       <StyledDiv>
         <ion-icon name="mail-outline"></ion-icon>
         <h3>Ecrivez-nous</h3>
         <p>Accédez au <Link href='/contact'><Anchor>formulaire</Anchor></Link></p>
+        <hr />
       </StyledDiv>
       <StyledDiv>
         <ion-icon name="time-outline"></ion-icon>
