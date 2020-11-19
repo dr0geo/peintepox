@@ -19,13 +19,7 @@ const Thermolaquage = props => {
       <main>
         <PageTitle url={titleUrl}>
           <h1>Thermolaquage</h1>
-          <p>L’entreprise Peintepox possède une solide expertise dans l’application de peinture en poudre thermodurcissable, ou thermolaquage. Utiliser le thermolaquage pour vos pièces présente de nombreux avantages :</p>
-          <ul>
-            <li>Haute résistance aux chocs et à la corrosion</li>
-            <li>Bonne tenue des couleurs</li>
-            <li>Couleur uniforme</li>
-            <li>Large choix de teintes, de textures et d’effets (métallisés, sablé, etc...)</li>
-          </ul>
+          <p>L’entreprise Peintepox possède une solide expertise dans l’application de peinture en poudre thermodurcissable, ou thermolaquage.<br />Utiliser le thermolaquage pour vos pièces améliore leur résistance, la tenue et l'uniformité de leurs couleurs, et vous permet de bénéficier d'un large choix de teintes, textures et effets.</p>
         </PageTitle>
         <Description />
         <ContactInfo />
