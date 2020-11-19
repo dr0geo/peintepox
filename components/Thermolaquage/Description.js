@@ -14,7 +14,8 @@ const Section = styled.section`
 
 const FlexDiv = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 20px auto;
   max-width: 900px;
   & > figure > img {
@@ -24,6 +25,9 @@ const FlexDiv = styled.div`
   }
   & > figure > figcaption {
     text-align: center;
+  }
+  @media only screen and (max-width: 720px) {
+    max-width: 530px;
   }
 `;
 

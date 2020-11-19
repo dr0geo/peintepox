@@ -6,7 +6,7 @@ const Container = styled.header`
   border-bottom: 15px solid #ce2026;
   padding: 0 40px;
   position: sticky;
-  transition: ${props => props.isClicked ? 'height 0.3s ease-in-out' : 'height 0.3s ease-in-out 0.3s'}; 
+  transition: ${props => props.isClicked ? 'height 0.3s ease-in-out, min-height 0.3s ease-in-out' : 'height 0.3s ease-in-out 0.3s, min-height 0.3s ease-in-out 0.3s'}; 
   top: 0;
   z-index: 100;
   @media only screen and (max-width: 1100px) {
@@ -14,6 +14,7 @@ const Container = styled.header`
   }
   @media only screen and (max-width: 900px) {
     height: ${props => props.isClicked ? '100vh' : '190px'};
+    min-height: ${props => props.isClicked ? '640px' : '190px'};
     position: relative;
   }
 `;

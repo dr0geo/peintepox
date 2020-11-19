@@ -19,7 +19,10 @@ const Section = styled.section`
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  @media only screen and (max-width: 1300px) {
+    max-width: 950px;
+  }
 `;
 
 const FlexCont = styled.div`
@@ -29,9 +32,14 @@ const FlexCont = styled.div`
   display: flex;
   flex-direction: column;
   margin: 60px 40px 0 40px;
-  max-width: 200px;
-  min-width: 200px;
+  width: 200px;
   padding: 20px;
+  @media only screen and (max-width: 650px) {
+    width: 60%;
+  }
+  @media only screen and (max-width: 450px) {
+    width: 80%;
+  }
 `;
 
 const Circle = styled.div`
@@ -66,6 +74,9 @@ const Button = styled.button`
     background: white;
     cursor: pointer;
     color: #ce2026;
+  }
+  @media only screen and (max-width: 900px) {
+    margin: 50px 10px;
   }
 `;
 

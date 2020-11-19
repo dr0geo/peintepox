@@ -10,7 +10,13 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
   padding-bottom: 50px;
+  max-width: 1350px;
+  @media only screen and (min-width: 1750px) {
+    max-width: 100%;
+  }
+}
 `;
 
 const Card = styled.div`
@@ -34,6 +40,9 @@ const Card = styled.div`
   &:nth-of-type(5) {
     background: url('/images/corrosion.jpeg') center;
     background-size: cover;
+  }
+  @media only screen and (max-width: 900px) {
+    width: 80%;
   }
 `;
 
