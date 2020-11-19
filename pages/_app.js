@@ -25,6 +25,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 30px 6%;
     text-align: center;
     text-transform: uppercase;
+    @media only screen and (max-width: 900px) {
+      font-size: 1.3rem;
+    }
   }
 
   h3 {

@@ -10,6 +10,7 @@ const Form = styled.form`
   margin: 50px auto 0px auto;
   max-width: 500px;
   padding: 20px 0;
+  width: 85%;
   & > p {
     font-size: 0.85rem;
     font-weight: 300;
@@ -26,10 +27,11 @@ const Input = styled.input`
   background: white;
   border: 2px solid white;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 10px 10px;
   padding: 10px 5px;
   transition: border 0.2s ease-in-out;
-  width: 400px;
+  max-width: 400px;
+  width: 90%;
   &:hover {
     background-color: #F2F7F6;
   }
@@ -42,10 +44,11 @@ const TextArea = styled.textarea`
   border: 2px solid transparent;
   border-radius: 5px;
   margin: 10px 0;
+  max-width: 400px;
   min-height: 300px;
   padding: 10px 5px;
   resize: none;
-  width: 400px;
+  width: 90%;
   &::placeholder {
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
@@ -61,8 +64,9 @@ const Paragraph = styled.p`
   font-size: 0.7rem;
   line-height: 1rem;
   margin: 0 auto 50px auto;
+  max-width: 500px;
   text-align: justify;
-  width: 500px;
+  width: 85%;
   & > a {
     border-bottom: 1px solid black;
   }
@@ -86,9 +90,9 @@ const ContactForm = () => {
         <Input name="Nom" type="text" placeholder="Nom *" required />
         <Input name="Email" type="email" placeholder="Email *" required />
         <Input name="Telephone" type="tel" placeholder="Téléphone" />
-        <TextArea name="Message" type="text" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
+        <TextArea name="Message" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
         <label htmlFor="attachment">Joindre des fichiers :</label>
-        <Input multiple id="attachment" name="files" type="file" accept="image/*,.pdf" />
+        <Input multiple name="files" type="file" accept="image/*,.pdf" />
         <p>* tous les champs comprenant une astérisque doivent être remplis</p>
         <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
       </Form>

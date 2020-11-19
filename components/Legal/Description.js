@@ -3,14 +3,15 @@ import Link from 'next/link';
 
 const GridCont = styled.section`
   display: grid;
-  gap: 40px;
+  gap: 0px 40px;
   grid-auto-flow: column;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
   justify-items: center;
   margin-bottom: 50px;
-  & > div {
-    width: 80%;
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
   }
 `;
 

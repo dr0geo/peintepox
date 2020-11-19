@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const PageTitle = styled.div`
-  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url(${props => props.url});
   background-attachment: fixed;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url(${props => props.url});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ const PageTitle = styled.div`
     background-attachment: scroll;
     background-position: top 80px;
     height: 100vh;
-    margin-bottom: ${props => props.isHome ? '-72px' : '-90px'};
+    margin-bottom: ${props => props.isHome ? '-72px' : '-110px'};
     position: relative;
   }
 `;
