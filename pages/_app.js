@@ -16,6 +16,9 @@ const GlobalStyle = createGlobalStyle`
     font-size: 2.8rem;
     max-width: 800px;
     text-transform: uppercase;
+    @media only screen and (max-width: 900px) {
+      font-size: 2rem;
+    }
   }
 
   h2 {
