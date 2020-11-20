@@ -12,7 +12,7 @@ const StyledAnchor = styled.a`
 `;
 
 const Success = props => {
-  const titleUrl = '/images/mailbox.jpg';
+  const titleUrl = '/images/mailbox.webp';
 
   return (
     <>

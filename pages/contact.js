@@ -5,7 +5,7 @@ import ContactForm from '@/components/ContactForm/ContactForm';
 import Footer from '@/components/Footer';
 
 const Contact = props => {
-  const titleUrl = '/images/contact.jpg';
+  const titleUrl = '/images/contact.webp';
 
   return (
     <>

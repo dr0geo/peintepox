@@ -37,12 +37,12 @@ const References = () => {
       <p>Nous vous garantissons un résultat <strong>précis</strong> et <strong>fiable</strong>.</p>
       <h2>Ils nous ont fait confiance</h2>
       <Container>
-        <Companies src="/images/companies/armee.jpg" alt="Logo Ministère des Armées" />
-        <Companies src="/images/companies/sncf.jpg" alt="Logo SNCF" />
-        <Companies src="/images/companies/ratp.jpg" alt="Logo RATP" />
-        <Companies src="/images/companies/bon-marche.jpg" alt="Logo Le Bon Marché" />
-        <Companies src="/images/companies/dior.png" alt="Logo Dior" />
-        <Companies src="/images/companies/paul-smith.png" alt="Logo Paul Smith" />
+        <Companies src="/images/companies/armee.webp" alt="Logo Ministère des Armées" />
+        <Companies src="/images/companies/sncf.webp" alt="Logo SNCF" />
+        <Companies src="/images/companies/ratp.webp" alt="Logo RATP" />
+        <Companies src="/images/companies/bon-marche.webp" alt="Logo Le Bon Marché" />
+        <Companies src="/images/companies/dior.webp" alt="Logo Dior" />
+        <Companies src="/images/companies/paul-smith.webp" alt="Logo Paul Smith" />
       </Container>
     </Section>
   );

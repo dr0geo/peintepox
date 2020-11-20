@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     width: 100%;
   }
   & > div:first-of-type {
-    background-image: url('/images/form.jpg');
+    background-image: url('/images/form.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

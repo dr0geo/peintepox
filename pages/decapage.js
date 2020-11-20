@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 
 const Decapage = props => {
-  const titleUrl = '/images/sablage.jpeg';
+  const titleUrl = '/images/sablage.webp';
 
   return (
     <>

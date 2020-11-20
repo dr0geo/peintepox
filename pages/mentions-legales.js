@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Legal = props => {
-  const titleUrl = '/images/mentions.jpg';
+  const titleUrl = '/images/mentions.webp';
 
   return (
     <>

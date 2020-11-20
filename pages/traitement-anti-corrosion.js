@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Traitement = props => {
-  const titleUrl = '/images/bg.jpeg';
+  const titleUrl = '/images/bg.webp';
 
   return (
     <>

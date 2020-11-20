@@ -25,21 +25,21 @@ const Card = styled.div`
   margin: 50px 20px;
   width: 300px;
   &:nth-of-type(1) {
-    background: url('/images/card.jpeg') center;
+    background: url('/images/card.webp') center;
   }
   &:nth-of-type(2) {
-    background: url('/images/fluid.jpg') center;
+    background: url('/images/fluid.webp') center;
     background-size: cover;
   }
   &:nth-of-type(3) {
-    background: url('/images/sablage.jpeg') center;
+    background: url('/images/sablage.webp') center;
   }
   &:nth-of-type(4) {
-    background: url('/images/chem-pickling.jpg') center;
+    background: url('/images/chem-pickling.webp') center;
     background-size: cover;
   }
   &:nth-of-type(5) {
-    background: url('/images/corrosion.jpeg') center;
+    background: url('/images/corrosion.webp') center;
     background-size: cover;
   }
   @media only screen and (max-width: 900px) {
