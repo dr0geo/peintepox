@@ -29,35 +29,35 @@ const Expertise = () => {
           bg="/images/card.webp" 
           name="Thermolaquage" 
           page="/thermolaquage" 
-          height="320px" 
+          height="350px" 
           width="300px" 
         />
         <Services 
           bg="/images/fluid.webp" 
           name="Peinture fluide" 
           page="/peinture-fluide" 
-          height="320px" 
+          height="350px" 
           width="300px"
         />
         <Services 
           bg="/images/sablage.webp" 
           name="Sablage" 
           page="/sablage" 
-          height="320px" 
+          height="350px" 
           width="300px"
         />
         <Services 
           bg="/images/chem-pickling.webp" 
           name="Décapage" 
           page="/decapage" 
-          height="320px" 
+          height="350px" 
           width="300px" 
         />
         <Services 
           bg="/images/corrosion.webp" 
           name="Traitement anti-corrosion" 
           page="/traitement-anti-corrosion" 
-          height="320px" 
+          height="350px" 
           width="300px"
         />
       </Container>
