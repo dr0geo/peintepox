@@ -16,7 +16,7 @@ const Home = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Thermolaquage, peinture fluide, sablage, décapage et traitement anti-corrosion</title>
+        <title>Peintepox - Peinture, sablage et décapage</title>
         <meta name="description" content="Bienvenue sur le site de Peintepox, société implantée en région parisienne et spécialisée en thermolaquage, peinture fluide, sablage, décapage et traitement anti-corrosion." />
       </Head>
       <Header active={1} isClicked={props.isClicked} handleClick={props.handleClick} />

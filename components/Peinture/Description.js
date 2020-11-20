@@ -16,6 +16,10 @@ const Section = styled.section`
   & > p > a {
     border-bottom: 1px solid black;
   }
+  & > p:last-of-type {
+    margin: 30px auto;
+    text-align: center;
+  }
 `;
 
 const Description = () => {

@@ -16,6 +16,19 @@ const Section = styled.section`
   & > p > a {
     border-bottom: 1px solid black;
   }
+  & > p:last-of-type {
+    margin: 30px auto;
+    text-align: center;
+  }
+`;
+
+const DarkDiv = styled.div`
+  background-color: #e1e1e1;
+  margin: 40px 0 20px 0;
+  padding: 20px 0 40px 0;
+  & > * {
+    margin: auto;
+  }
 `;
 
 const Description = () => {
@@ -32,9 +45,11 @@ const Description = () => {
         <li>garde-corps</li>
         <li>volets</li>
       </ul>
-      <h2>Une technique innovante</h2>
-      <p>Nous utilisons des techniques de décapage innovantes afin de redonner aux pièces métalliques, leur apparence d’antan. Les abrasifs que nous utilisons sont <strong>efficaces</strong> et <strong>n’endommagent pas</strong> la surface des ouvrages décapés.</p><br />
-      <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p><br />
+      <DarkDiv>
+        <h2>Une technique innovante</h2>
+        <p>Nous utilisons des techniques de décapage innovantes afin de redonner aux pièces métalliques, leur apparence d’antan. Les abrasifs que nous utilisons sont <strong>efficaces</strong> et <strong>n’endommagent pas</strong> la surface des ouvrages décapés.</p><br />
+        <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p><br />
+      </DarkDiv>
       <h2>Retrouvez aussi...</h2>
       <ServicesContainer>
         <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />

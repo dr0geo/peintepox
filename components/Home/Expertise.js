@@ -25,11 +25,41 @@ const Expertise = () => {
       <h2>Notre savoir-faire</h2>
       <Paragraph>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, ainsi que des organismes publics.</Paragraph>
       <Container>
-        <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" height="320px" width="300px" />
-        <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" height="320px" width="300px" />
-        <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" height="320px" width="300px" />
-        <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" height="320px" width="300px" />
-        <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" height="320px" width="300px" />
+        <Services 
+          bg="/images/card.webp" 
+          name="Thermolaquage" 
+          page="/thermolaquage" 
+          height="320px" 
+          width="300px" 
+        />
+        <Services 
+          bg="/images/fluid.webp" 
+          name="Peinture fluide" 
+          page="/peinture-fluide" 
+          height="320px" 
+          width="300px"
+        />
+        <Services 
+          bg="/images/sablage.webp" 
+          name="Sablage" 
+          page="/sablage" 
+          height="320px" 
+          width="300px"
+        />
+        <Services 
+          bg="/images/chem-pickling.webp" 
+          name="Décapage" 
+          page="/decapage" 
+          height="320px" 
+          width="300px" 
+        />
+        <Services 
+          bg="/images/corrosion.webp" 
+          name="Traitement anti-corrosion" 
+          page="/traitement-anti-corrosion" 
+          height="320px" 
+          width="300px"
+        />
       </Container>
     </section>
   );

@@ -13,6 +13,10 @@ const Section = styled.section`
   & > p > a {
     border-bottom: 1px solid black;
   }
+  & > p:last-of-type {
+    margin: 30px auto;
+    text-align: center;
+  }
 `;
 
 const FlexDiv = styled.div`
@@ -31,6 +35,15 @@ const FlexDiv = styled.div`
   }
   @media only screen and (max-width: 720px) {
     max-width: 530px;
+  }
+`;
+
+const DarkDiv = styled.div`
+  background-color: #e1e1e1;
+  margin: 40px 0 20px 0;
+  padding: 20px 0 40px 0;
+  & > * {
+    margin: auto;
   }
 `;
 
@@ -78,10 +91,12 @@ const Description = () => {
       </FlexDiv>
       <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
       <Gallery images={thermoImages} />
-      <h2>Les avantages du thermolaquage</h2>
-      <p>Le thermolaquage est une technique permettant de protéger la surface d’une pièce et d’améliorer son aspect. Elle offre un large panel de couleurs, d’effets (métallisé, texturé, sablé…) et de finitions.</p><br />
-      <p>Plus <strong>économique</strong> et <strong>écologique</strong> que la peinture liquide, ce procédé ne nécessite quasiment aucun temps de séchage. C’est d’ailleurs la raison pour laquelle le thermolaquage est utilisé pour peindre des pièces détachées automobiles, comme les châssis et les jantes.</p><br />
-      <p>Maîtrisant parfaitement toutes les étapes de cette opération, nous vous garantissons un résultat alliant <strong>esthétique</strong>, <strong>résistance</strong> et <strong>durabilité</strong>.</p><br />
+      <DarkDiv>
+        <h2>Les avantages du thermolaquage</h2>
+        <p>Le thermolaquage est une technique permettant de protéger la surface d’une pièce et d’améliorer son aspect. Elle offre un large panel de couleurs, d’effets (métallisé, texturé, sablé…) et de finitions.</p><br />
+        <p>Plus <strong>économique</strong> et <strong>écologique</strong> que la peinture liquide, ce procédé ne nécessite quasiment aucun temps de séchage. C’est d’ailleurs la raison pour laquelle le thermolaquage est utilisé pour peindre des pièces détachées automobiles, comme les châssis et les jantes.</p><br />
+        <p>Maîtrisant parfaitement toutes les étapes de cette opération, nous vous garantissons un résultat alliant <strong>esthétique</strong>, <strong>résistance</strong> et <strong>durabilité</strong>.</p><br />
+      </DarkDiv>
       <h2>Retrouvez aussi...</h2>
       <ServicesContainer>
         <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
