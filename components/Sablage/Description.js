@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Services from '@/components/Services';
+import ServicesContainer from '@/components/ServicesContainer';
 
 const Section = styled.section`
   margin: auto;
@@ -11,7 +13,7 @@ const Section = styled.section`
     margin: auto;
     max-width: 800px;
   }
-  & a {
+  & > p > a {
     border-bottom: 1px solid black;
   }
 `;
@@ -36,6 +38,14 @@ const Description = () => {
         <li>Portails</li>
         <li>Barrières</li>
       </ul>
+      <h2>Retrouvez aussi...</h2>
+      <ServicesContainer>
+        <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
+        <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
+        <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
+        <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+      </ServicesContainer>
+      <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
     </Section>
   );
 }

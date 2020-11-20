@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Services from '@/components/Services';
+import ServicesContainer from '@/components/ServicesContainer';
 
 const Section = styled.section`
   margin: auto;
@@ -11,7 +13,7 @@ const Section = styled.section`
     margin: auto;
     max-width: 800px;
   }
-  & a {
+  & > p > a {
     border-bottom: 1px solid black;
   }
 `;
@@ -33,7 +35,14 @@ const Description = () => {
       <h2>Une technique innovante</h2>
       <p>Nous utilisons des techniques de décapage innovantes afin de redonner aux pièces métalliques, leur apparence d’antan. Les abrasifs que nous utilisons sont <strong>efficaces</strong> et <strong>n’endommagent pas</strong> la surface des ouvrages décapés.</p><br />
       <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p><br />
-      <p>En fonction de votre projet, vous pourriez être intéressé par nos prestations de <Link href="/sablage"><a title="Découvrez nos prestations de sablage">sablage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+      <h2>Retrouvez aussi...</h2>
+      <ServicesContainer>
+        <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
+        <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
+        <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
+        <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+      </ServicesContainer>
+      <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
     </Section>
   );
 }

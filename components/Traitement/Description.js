@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Services from '@/components/Services';
+import ServicesContainer from '@/components/ServicesContainer';
 
 const Section = styled.section`
   margin: auto;
@@ -11,7 +13,7 @@ const Section = styled.section`
     margin: auto;
     max-width: 800px;
   }
-  & a {
+  & > p > a {
     border-bottom: 1px solid black;
   }
 `;
@@ -30,7 +32,14 @@ const Description = () => {
         <li><Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">Thermolaquage</a></Link></li>
       </ul><br />
       <p>Quelles que soient la forme, les dimensions et les caractéristiques de la pièce métallique à traiter, nous n’avons qu’un seul objectif : <strong>enlever toutes les parties rouillées</strong> qui ternissent son état et son aspect.</p><br />
-      <p>En fonction de votre projet, vous pourriez être intéressé par nos prestations de <Link href="/decapage"><a title="Découvrez nos prestations de décapage">décapage</a></Link> afin de parfaire le traitement de vos pièces. Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+      <h2>Retrouvez aussi...</h2>
+      <ServicesContainer>
+        <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
+        <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
+        <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
+        <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
+      </ServicesContainer>
+      <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
     </Section>
   );
 }
