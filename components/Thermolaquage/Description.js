@@ -10,7 +10,7 @@ const Section = styled.section`
   & > p {
     margin: auto;
   }
-  & a {
+  & > p > a {
     border-bottom: 1px solid black;
   }
 `;

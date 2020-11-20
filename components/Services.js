@@ -6,10 +6,10 @@ const Card = styled.div`
   background-size: cover;
   border-radius: 5px 5px 0px 0px;
   box-shadow: 0 0 2px 2px lightgray;
-  height: 170px;
+  height: ${props => props.height ? props.height : '170px'};
   margin: 0px 20px 60px 20px;
   transition: opacity 0.2s ease-in-out;
-  width: 220px;
+  width: ${props => props.width ? props.width : '220px'};
   &:hover {
     cursor: pointer;
     opacity: 0.9;
@@ -36,7 +36,7 @@ const Services = props => {
   return (
     <Link href={props.page}>
       <a>
-        <Card bg={props.bg}>
+        <Card bg={props.bg} height={props.height} width={props.width}>
           <Button>{props.name}</Button>
         </Card>
       </a>
