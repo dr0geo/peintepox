@@ -59,6 +59,9 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 6%;
     max-width: 900px;
     text-align: center;
+    & > a {
+      border-bottom: 1px solid black;
+    }
   }
 
   ul {

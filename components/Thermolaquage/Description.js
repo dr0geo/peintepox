@@ -3,7 +3,7 @@ import { WhiteDiv, DarkDiv } from '@/elements/Divisions';
 import { IconsDiv } from '@/elements/FlexDiv';
 import Gallery from '@/elements/Gallery';
 import Services from '@/components/Services';
-import ServicesContainer from '@/components/ServicesContainer';
+import { ServicesContainer } from '@/elements/FlexDiv';
 
 const thermoImages = [
   {
