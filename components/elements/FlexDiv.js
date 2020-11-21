@@ -5,13 +5,13 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 margin: 20px auto;
-max-width: 900px;
+max-width: 850px;
 & > figure > img {
   display: block;
-  height: auto;
   width: 100px;
 }
 & > figure > figcaption {
+  margin-top: 10px;
   text-align: center;
 }
 @media only screen and (max-width: 720px) {

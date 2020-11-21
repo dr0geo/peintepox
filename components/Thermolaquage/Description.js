@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { WhiteDiv, DarkDiv } from '@/elements/Divisions';
 import { IconsDiv } from '@/elements/FlexDiv';
+import { ServicesContainer } from '@/elements/FlexDiv';
+import Figure from '@/elements/IconFigure';
 import Gallery from '@/elements/Gallery';
 import Services from '@/components/Services';
-import { ServicesContainer } from '@/elements/FlexDiv';
+
 
 const thermoImages = [
   {
@@ -31,22 +33,22 @@ const Description = () => {
         <h2>Application d’une peinture en poudre sans solvant<br />et sans composant toxique</h2>
         <p>Nous appliquons de la peinture en poudre, <strong>sans solvant</strong> et <strong>sans composant toxique</strong> sur des métaux ferreux et non ferreux :</p>
         <IconsDiv>
-          <figure>
-            <img src="/images/icons/thermolaquage/Acier.webp" alt="Acier" />
-            <figcaption><em>Acier</em></figcaption>
-          </figure>
-          <figure>
-            <img src="/images/icons/thermolaquage/Fer.webp" alt="Fer" />
-            <figcaption><em>Fer</em></figcaption>
-          </figure>
-          <figure>
-            <img src="/images/icons/thermolaquage/Cu.webp" alt="Cuivre" />
-            <figcaption><em>Cuivre</em></figcaption>
-          </figure>
-          <figure>
-            <img src="/images/icons/thermolaquage/Al.webp" alt="Aluminium" />
-            <figcaption><em>Aluminium</em></figcaption>
-          </figure>
+          <Figure
+            name="Acier"
+            url="/images/icons/thermolaquage/Acier.webp"
+          />
+          <Figure
+            name="Fer"
+            url="/images/icons/thermolaquage/Fer.webp"
+          />
+          <Figure
+            name="Cuivre"
+            url="/images/icons/thermolaquage/Cu.webp"
+          />
+          <Figure
+            name="Aluminium"
+            url="/images/icons/thermolaquage/Al.webp"
+          />
         </IconsDiv>
         <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
       </WhiteDiv>
