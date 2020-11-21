@@ -25,11 +25,12 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 margin: 30px auto;
-max-width: 1200px;
+max-width: 1350px;
+/*max-width: 1200px;*/
 & a {
   border-bottom: none;
 }
-@media only screen and (max-width: 1100px) {
+/*@media only screen and (max-width: 1100px) {
   max-width: 700px;
-}
+}*/
 `;

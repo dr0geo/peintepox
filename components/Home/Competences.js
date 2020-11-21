@@ -1,25 +1,11 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { DarkDiv } from '@/elements/Divisions';
+import { ServicesContainer } from '@/elements/FlexDiv';
+import Button from '@/elements/Button';
 
-const Section = styled.section`
-  align-items: center;
-  background-color: #e1e1e1;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  & > h2 {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-  }
-  & > p {
-    width: 800px;
-  }
-`;
 
-const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+const Container = styled(ServicesContainer)`
   @media only screen and (max-width: 1300px) {
     max-width: 950px;
   }
@@ -31,7 +17,9 @@ const FlexCont = styled.div`
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 60px 40px 0 40px;
+  justify-content: flex-start;
+  margin: 0 40px;
+  min-height: 200px;
   width: 200px;
   padding: 20px;
   @media only screen and (max-width: 650px) {
@@ -62,28 +50,10 @@ const Circle = styled.div`
   }
 `;
 
-const Button = styled.button`
-  background: #ce2026;
-  border: 1px solid #ce2026;
-  border-radius: 5px;
-  color: white;
-  margin: 50px auto;
-  padding: 10px 20px;
-  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
-  &:hover {
-    background: white;
-    cursor: pointer;
-    color: #ce2026;
-  }
-  @media only screen and (max-width: 900px) {
-    font-size: 1rem;
-    margin: 50px 10px;
-  }
-`;
-
 const Competences = () => {
   return (
-    <Section>
+    <section>
+    <DarkDiv>
       <h2>Nos atouts</h2>
       <Container>
         <FlexCont>
@@ -108,7 +78,8 @@ const Competences = () => {
         </FlexCont>
       </Container>
       <Link href="/contact"><Button>Contactez-nous pour recevoir un devis gratuit</Button></Link>
-    </Section>
+    </DarkDiv>
+    </section>
   );
 }
 

@@ -5,7 +5,6 @@ import Services from '@/components/Services';
 
 const Container = styled(ServicesContainer)`
   justify-content: center;
-  max-width: 1350px;
   @media only screen and (min-width: 1750px) {
     max-width: 100%;
   }
