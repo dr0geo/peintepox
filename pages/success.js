@@ -1,3 +1,4 @@
+import styled from 'styled-components';
 import Head from 'next/head';
 import Link from 'next/link';
 import { WhiteDiv } from '@/elements/Divisions';
@@ -6,8 +7,13 @@ import Header from '@/components/Header';
 import PageTitle from '@/components/PageTitle';
 import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
-import styled from 'styled-components';
 import Services from '@/components/Services';
+
+const SpecialContainer = styled(ServicesContainer)`
+  @media only screen and (max-width: 1350px) {
+    max-width: 900px;
+  }
+`;
 
 const StyledAnchor = styled.a`
   border-bottom: 1px solid white;
@@ -32,7 +38,7 @@ const Success = props => {
         </PageTitle>
         <WhiteDiv>
           <h2>Retrouvez aussi...</h2>
-          <ServicesContainer>
+          <SpecialContainer>
             <Services 
               bg="/images/card.webp" 
               name="Thermolaquage" 
@@ -58,7 +64,7 @@ const Success = props => {
               name="Traitement anti-corrosion" 
               page="/traitement-anti-corrosion"
             />
-          </ServicesContainer>
+          </SpecialContainer>
         </WhiteDiv>
         <ContactInfo />
       </main>
