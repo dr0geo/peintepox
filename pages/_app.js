@@ -18,17 +18,17 @@ const GlobalStyle = createGlobalStyle`
     max-width: 800px;
     text-transform: uppercase;
     @media only screen and (max-width: 900px) {
-      font-size: 2rem;
+      font-size: 2.3rem;
     }
   }
 
   h2 {
     font-size: 1.8rem;
-    padding: 30px 6%;
+    padding: 20px 3%;
     text-align: center;
     text-transform: uppercase;
     @media only screen and (max-width: 900px) {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -55,9 +55,8 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     line-height: 1.5rem;
-    padding-left: 6%;
-    padding-right: 6%;
     max-width: 900px;
+    padding: 5px 3%;
     text-align: center;
     & > a {
       border-bottom: 1px solid black;
@@ -65,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ul {
-    padding: 0 6%;
+    padding: 0;
   }
 
   li {

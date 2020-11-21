@@ -24,7 +24,7 @@ align-items: center;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-margin: 30px auto;
+margin: 40px auto;
 max-width: 1350px;
 /*max-width: 1200px;*/
 & a {

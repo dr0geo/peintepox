@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Button from '@/elements/Button';
 
 const Wrapper = styled.section`
   display: flex;
@@ -26,7 +27,7 @@ const Wrapper = styled.section`
 
 const Form = styled.form`
   align-items: center;
-  background-color: #dbd7d6;
+  background-color: #e1e1e1;
   border-radius: 0px 5px 5px 0px;
   display: flex;
   flex-direction: column;
@@ -77,20 +78,21 @@ const TextArea = styled.textarea`
   resize: none;
   width: 90%;
   &::placeholder {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 0.9rem;
   }
-`;
-
-const Button = styled.button`
-  margin-top: 10px;
-  padding: 5px 15px;
+  &:hover {
+    background-color: #F2F7F6;
+  }
+  &:focus {
+    border: 2px solid teal;
+  }
 `;
 
 const Paragraph = styled.p`
   font-size: 0.7rem;
   line-height: 1rem;
-  margin: 0 auto 50px auto;
+  margin: 10px auto 50px auto;
   max-width: 1000px;
   padding-left: 0;
   padding-right: 0;
@@ -118,19 +120,72 @@ const ContactForm = () => {
       <Wrapper>
         <div></div>
         <div>
-          <Form action="https://api.mailslurp.com/forms" method="post" encType="multipart/form-data">
-            <input id="ownEmail" name="_to" type="hidden" />
-            <input name="_subject" type="hidden" value="Demande via le site Peintepox" />
-            <input name="_redirectTo" type="hidden" value="https://peintepox.vercel.app/success" />
-            <Input name="Prenom" type="text" placeholder="Prénom *" required />
-            <Input name="Nom" type="text" placeholder="Nom *" required />
-            <Input name="Email" type="email" placeholder="Email *" required />
-            <Input name="Telephone" type="tel" placeholder="Téléphone" />
-            <TextArea name="Message" minLength="10" placeholder="Ecrivez votre message ici... *" required></TextArea>
+          <Form 
+            action="https://api.mailslurp.com/forms" 
+            method="post" 
+            encType="multipart/form-data"
+          >
+            <input 
+              id="ownEmail" 
+              name="_to" 
+              type="hidden"
+            />
+            <input 
+              name="_subject" 
+              type="hidden" 
+              value="Demande via le site Peintepox" 
+            />
+            <input 
+              name="_redirectTo" 
+              type="hidden" 
+              value="https://peintepox.vercel.app/success" 
+            />
+            <Input 
+              name="Prenom" 
+              type="text" 
+              placeholder="Prénom *" 
+              required
+            />
+            <Input 
+              name="Nom" 
+              type="text" 
+              placeholder="Nom *" 
+              required
+            />
+            <Input 
+              name="Email" 
+              type="email" 
+              placeholder="Email *" 
+              required
+            />
+            <Input 
+              name="Telephone" 
+              type="tel" 
+              placeholder="Téléphone"
+            />
+            <TextArea 
+              name="Message" 
+              minLength="10" 
+              placeholder="Ecrivez votre message ici... *" 
+              required
+            >
+            </TextArea>
             <label htmlFor="attachment">Joindre des fichiers :</label>
-            <Input id="attachment" multiple name="files" type="file" accept="image/*,.pdf" />
+            <Input 
+              id="attachment" 
+              multiple 
+              name="files" 
+              type="file" 
+              accept="image/*,.pdf"
+            />
             <p>* tous les champs comprenant une astérisque doivent être remplis</p>
-            <Button id="submit" type="submit" onClick={handleClick}>Envoyer la demande</Button>
+            <Button 
+              id="submit" 
+              type="submit" 
+              onClick={handleClick}
+            >
+              Envoyer la demande
+            </Button>
           </Form>
         </div>
       </Wrapper>
