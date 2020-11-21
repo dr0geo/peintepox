@@ -46,6 +46,7 @@ const StyledDiv = styled.div`
     margin-top: 0;
     padding-left: 0;
     padding-right: 0;
+    text-align: left;
   }
   @media only screen and (max-width: 1100px) {
     padding: 0 25px;

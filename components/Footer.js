@@ -48,6 +48,7 @@ const StyledDiv = styled.div`
   & > p {
     padding-left: 0;
     padding-right: 0;
+    text-align: left;
   }
   & > p > a {
     border-bottom: 1px solid white;

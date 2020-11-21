@@ -20,6 +20,7 @@ const PageTitle = styled.div`
   }
   & > p {
     max-width: 600px;
+    text-align: left;
   }
   @media only screen and (max-width: 900px) {
     background-attachment: scroll;

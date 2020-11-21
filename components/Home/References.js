@@ -17,6 +17,16 @@ const Container = styled.div`
   justify-content: center;
   margin-bottom: 60px;
 `;
+
+const DarkDiv = styled.div`
+  background-color: #e1e1e1;
+  margin: 40px 0 0 0;
+  padding: 20px 0 60px 0;
+  & > * {
+    margin: auto;
+  }
+`;
+
 const Companies = styled.img`
   display: block;
   height: 100px;
@@ -35,18 +45,20 @@ const References = () => {
       <p>Nos <strong>délais</strong> de réalisation sont <strong>courts</strong> et <strong>respectés</strong>.</p>
       <br />
       <p>Nous vous garantissons un résultat <strong>précis</strong> et <strong>fiable</strong>.</p>
-      <h2>Ils nous ont fait confiance</h2>
-      <Container>
-        <Companies 
-          src="/images/companies/armee.webp" 
-          alt="Logo Ministère des Armées" 
-        />
-        <Companies src="/images/companies/sncf.webp" alt="Logo SNCF" />
-        <Companies src="/images/companies/ratp.webp" alt="Logo RATP" />
-        <Companies src="/images/companies/bon-marche.webp" alt="Logo Le Bon Marché" />
-        <Companies src="/images/companies/dior.webp" alt="Logo Dior" />
-        <Companies src="/images/companies/paul-smith.webp" alt="Logo Paul Smith" />
-      </Container>
+      <DarkDiv>
+        <h2>Ils nous ont fait confiance</h2>
+        <Container>
+          <Companies 
+            src="/images/companies/armee.webp" 
+            alt="Logo Ministère des Armées" 
+          />
+          <Companies src="/images/companies/sncf.webp" alt="Logo SNCF" />
+          <Companies src="/images/companies/ratp.webp" alt="Logo RATP" />
+          <Companies src="/images/companies/bon-marche.webp" alt="Logo Le Bon Marché" />
+          <Companies src="/images/companies/dior.webp" alt="Logo Dior" />
+          <Companies src="/images/companies/paul-smith.webp" alt="Logo Paul Smith" />
+        </Container>
+      </DarkDiv>
     </Section>
   );
 }

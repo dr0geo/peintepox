@@ -8,13 +8,13 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     margin: auto;
     overflow-x: hidden;
   }
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     max-width: 800px;
     text-transform: uppercase;
     @media only screen and (max-width: 900px) {
@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
+    font-size: 1.8rem;
     padding: 30px 6%;
     text-align: center;
     text-transform: uppercase;
@@ -57,6 +58,7 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 6%;
     padding-right: 6%;
     max-width: 900px;
+    text-align: center;
   }
 
   ul {

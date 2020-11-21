@@ -69,7 +69,7 @@ const thermoImages = [
 const Description = () => {
   return (
     <Section>
-      <h2>Application d’une peinture en poudre sans solvant et sans composant toxique</h2>
+      <h2>Application d’une peinture en poudre sans solvant<br />et sans composant toxique</h2>
       <p>Nous appliquons de la peinture en poudre, <strong>sans solvant</strong> et <strong>sans composant toxique</strong> sur des métaux ferreux et non ferreux :</p>
       <FlexDiv>
         <figure>
