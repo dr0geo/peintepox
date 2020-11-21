@@ -6,9 +6,10 @@ import Button from '@/elements/Button';
 
 
 const Container = styled(ServicesContainer)`
-  @media only screen and (max-width: 1300px) {
-    max-width: 950px;
+  @media only screen and (max-width: 1350px) {
+  max-width: 800px;
   }
+  
 `;
 
 const FlexCont = styled.div`
@@ -18,8 +19,8 @@ const FlexCont = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 40px;
-  min-height: 200px;
+  margin: 40px 40px;
+  min-height: 215px;
   width: 200px;
   padding: 20px;
   @media only screen and (max-width: 650px) {

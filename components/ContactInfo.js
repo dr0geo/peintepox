@@ -48,6 +48,9 @@ const StyledDiv = styled.div`
     padding-left: 0;
     padding-right: 0;
     text-align: left;
+    @media only screen and (max-width: 900px) {
+      text-align: center;
+    }
   }
   @media only screen and (max-width: 1100px) {
     padding: 0 25px;

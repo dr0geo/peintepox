@@ -9,7 +9,7 @@ const Container = styled(ServicesContainer)`
     max-width: 100%;
   }
   @media only screen and (max-width: 1100px) {
-  max-width: 100%;
+    max-width: 100%;
   }
 }
 `;

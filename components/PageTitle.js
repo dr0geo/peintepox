@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 const PageTitle = styled.div`
   background-attachment: fixed;
-  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url(${props => props.url});
+  background-image: 
+    linear-gradient(0deg, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), 
+    url(${props => props.url});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,13 +15,12 @@ const PageTitle = styled.div`
   justify-content: center;
   margin-bottom: ${props => props.isHome ? '-115px' : 'auto'};
   min-height: 650px;
+  padding-left: 10%;
   position: ${props => props.isHome ? 'relative' : 'static'};
   top: -124px;
-  & > h1 {
-    padding: 0 6%;
-  }
   & > p {
     max-width: 600px;
+    padding: 5px 0;
     text-align: left;
   }
   @media only screen and (max-width: 900px) {
@@ -27,7 +28,12 @@ const PageTitle = styled.div`
     background-position: top 80px center;
     height: 100vh;
     margin-bottom: ${props => props.isHome ? '-72px' : '-110px'};
+    padding-left: 3%;
+    padding-right: 3%;
     position: relative;
+    & > h1, & > p {
+      text-align: center;
+    }
   }
 `;
 

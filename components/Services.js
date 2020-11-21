@@ -7,13 +7,14 @@ const Card = styled.div`
   border-radius: 5px;
   box-shadow: 0 0 2px 2px lightgray;
   height: ${props => props.height ? props.height : '200px'};
-  margin: 0px 20px 0px 20px;
+  margin: 40px 20px;
   transition: opacity 0.2s ease-in-out;
   width: ${props => props.width ? props.width : '220px'};
   &:hover {
     cursor: pointer;
     opacity: 0.9;
   }
+
 `;
 
 const Button = styled.button`

@@ -70,6 +70,9 @@ const StyledDiv = styled.div`
       font-weight: 400;
       text-transform: uppercase;
     }
+    & > p {
+      text-align: center;
+    }
     & > div > a + a {
       margin-left: 20px;
     }
