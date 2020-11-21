@@ -60,12 +60,15 @@ const PhoneMenu = styled.div`
   font-size: 1.2rem;
   display: none;
   margin-bottom: 20px;
+  margin-top: 10px;
   &:hover {
     cursor: pointer;
   }
   & > ion-icon {
     height: 30px;
     margin-right: 5px;
+    position: relative;
+    top: -3px;
     width: 30px;
   }
   @media only screen and (max-width: 900px) {

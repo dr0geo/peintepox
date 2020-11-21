@@ -1,8 +1,16 @@
+import styled from 'styled-components';
 import Link from 'next/link';
 import { WhiteDiv } from '@/elements/Divisions';
 import { ServicesContainer } from '@/elements/FlexDiv';
 import Background from '@/elements/Background';
 import Services from '@/components/Services';
+
+const SpecialWhiteDiv = styled(WhiteDiv)`
+  @media only screen and (max-width: 900px) {
+    margin-top: -20px;
+    padding-top: 0;
+  }
+`;
 
 const Description = () => {
   const bgUrl = '/images/home.webp';
@@ -16,7 +24,7 @@ const Description = () => {
         <p>Notre <strong>excellente réputation</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>nucléaire</strong> ainsi que dans <strong>l’armement</strong>.</p>
       </WhiteDiv>
       <Background url={bgUrl} />
-      <WhiteDiv>
+      <SpecialWhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
           <Services 
@@ -41,7 +49,7 @@ const Description = () => {
           />
         </ServicesContainer>
         <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
-      </WhiteDiv>
+      </SpecialWhiteDiv>
     </section>
   );
 }

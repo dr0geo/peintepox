@@ -6,16 +6,14 @@ import Figure from '../elements/IconFigure';
 import Services from '@/components/Services';
 
 const SpecialIconsDiv = styled(IconsDiv)`
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
+  margin-bottom: 15px;
   & > figure {
     align-items: center;
     display: flex;
-    justify-content: flex-start;
-    width: 430px;
-    & > figcaption {
-      margin-left: 20px;
+    flex-direction: column;
+    min-width: 330px;
+    & > img {
+      align-self: center;
     }
     &:last-of-type > figcaption {
       border-bottom: 1px solid black;
