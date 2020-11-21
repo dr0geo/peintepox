@@ -73,19 +73,19 @@ const Description = () => {
       <p>Nous appliquons de la peinture en poudre, <strong>sans solvant</strong> et <strong>sans composant toxique</strong> sur des métaux ferreux et non ferreux :</p>
       <FlexDiv>
         <figure>
-          <img src="/images/thermolaquage/Acier.webp" alt="Acier" />
+          <img src="/images/icons/thermolaquage/Acier.webp" alt="Acier" />
           <figcaption><em>Acier</em></figcaption>
         </figure>
         <figure>
-          <img src="/images/thermolaquage/Fer.webp" alt="Fer" />
+          <img src="/images/icons/thermolaquage/Fer.webp" alt="Fer" />
           <figcaption><em>Fer</em></figcaption>
         </figure>
         <figure>
-          <img src="/images/thermolaquage/Cu.webp" alt="Cuivre" />
+          <img src="/images/icons/thermolaquage/Cu.webp" alt="Cuivre" />
           <figcaption><em>Cuivre</em></figcaption>
         </figure>
         <figure>
-          <img src="/images/thermolaquage/Al.webp" alt="Aluminium" />
+          <img src="/images/icons/thermolaquage/Al.webp" alt="Aluminium" />
           <figcaption><em>Aluminium</em></figcaption>
         </figure>
       </FlexDiv>
