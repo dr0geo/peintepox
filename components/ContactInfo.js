@@ -33,10 +33,11 @@ const StyledDiv = styled.div`
   }
   & > ion-icon {
     display: inline-block;
-    height: 1.2rem;
+    height: 20px;
     padding-right: 8px;
-    vertical-align: middle;
-    width: 1.2rem;
+    position: relative;
+    top: 3px;
+    width: 20px;
   }
   & > h3 {
     display: inline-block;
