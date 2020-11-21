@@ -7,7 +7,7 @@ const Card = styled.div`
   border-radius: 5px;
   box-shadow: 0 0 2px 2px lightgray;
   height: ${props => props.height ? props.height : '200px'};
-  margin: 0px 20px 60px 20px;
+  margin: 0px 20px 0px 20px;
   transition: opacity 0.2s ease-in-out;
   width: ${props => props.width ? props.width : '220px'};
   &:hover {
