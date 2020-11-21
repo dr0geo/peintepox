@@ -19,7 +19,7 @@ const translate = keyframes`
 `;
 
 const Wrapper = styled.aside`
-  margin: 40px auto 0 auto;
+  margin: 0px auto 60px auto;
   max-width: 1100px;
   overflow: hidden;
 `;

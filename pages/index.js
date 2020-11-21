@@ -4,7 +4,7 @@ import PageTitle from '@/components/PageTitle';
 import ContactInfo from '@/components/ContactInfo';
 import Expertise from '@/components/Home/Expertise';
 import Competences from '@/components/Home/Competences';
-import Background from '@/components/Background';
+import Background from '@/components/elements/Background';
 import References from '@/components/Home/References';
 import Footer from '@/components/Footer';
 

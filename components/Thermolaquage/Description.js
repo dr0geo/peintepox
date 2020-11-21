@@ -1,51 +1,9 @@
-import styled from 'styled-components';
 import Link from 'next/link';
-import Gallery from '@/components/Gallery';
+import { WhiteDiv, DarkDiv } from '@/elements/Divisions';
+import { IconsDiv } from '@/elements/FlexDiv';
+import Gallery from '@/elements/Gallery';
 import Services from '@/components/Services';
 import ServicesContainer from '@/components/ServicesContainer';
-
-const Section = styled.section`
-  margin: auto;
-  margin-bottom: 50px;
-  & > p {
-    margin: auto;
-  }
-  & > p > a {
-    border-bottom: 1px solid black;
-  }
-  & > p:last-of-type {
-    margin: 30px auto;
-    text-align: center;
-  }
-`;
-
-const FlexDiv = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 20px auto;
-  max-width: 900px;
-  & > figure > img {
-    display: block;
-    height: auto;
-    width: 100px;
-  }
-  & > figure > figcaption {
-    text-align: center;
-  }
-  @media only screen and (max-width: 720px) {
-    max-width: 530px;
-  }
-`;
-
-const DarkDiv = styled.div`
-  background-color: #e1e1e1;
-  margin: 40px 0 20px 0;
-  padding: 20px 0 40px 0;
-  & > * {
-    margin: auto;
-  }
-`;
 
 const thermoImages = [
   {
@@ -68,28 +26,30 @@ const thermoImages = [
 
 const Description = () => {
   return (
-    <Section>
-      <h2>Application d’une peinture en poudre sans solvant<br />et sans composant toxique</h2>
-      <p>Nous appliquons de la peinture en poudre, <strong>sans solvant</strong> et <strong>sans composant toxique</strong> sur des métaux ferreux et non ferreux :</p>
-      <FlexDiv>
-        <figure>
-          <img src="/images/icons/thermolaquage/Acier.webp" alt="Acier" />
-          <figcaption><em>Acier</em></figcaption>
-        </figure>
-        <figure>
-          <img src="/images/icons/thermolaquage/Fer.webp" alt="Fer" />
-          <figcaption><em>Fer</em></figcaption>
-        </figure>
-        <figure>
-          <img src="/images/icons/thermolaquage/Cu.webp" alt="Cuivre" />
-          <figcaption><em>Cuivre</em></figcaption>
-        </figure>
-        <figure>
-          <img src="/images/icons/thermolaquage/Al.webp" alt="Aluminium" />
-          <figcaption><em>Aluminium</em></figcaption>
-        </figure>
-      </FlexDiv>
-      <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
+    <section>
+      <WhiteDiv>
+        <h2>Application d’une peinture en poudre sans solvant<br />et sans composant toxique</h2>
+        <p>Nous appliquons de la peinture en poudre, <strong>sans solvant</strong> et <strong>sans composant toxique</strong> sur des métaux ferreux et non ferreux :</p>
+        <IconsDiv>
+          <figure>
+            <img src="/images/icons/thermolaquage/Acier.webp" alt="Acier" />
+            <figcaption><em>Acier</em></figcaption>
+          </figure>
+          <figure>
+            <img src="/images/icons/thermolaquage/Fer.webp" alt="Fer" />
+            <figcaption><em>Fer</em></figcaption>
+          </figure>
+          <figure>
+            <img src="/images/icons/thermolaquage/Cu.webp" alt="Cuivre" />
+            <figcaption><em>Cuivre</em></figcaption>
+          </figure>
+          <figure>
+            <img src="/images/icons/thermolaquage/Al.webp" alt="Aluminium" />
+            <figcaption><em>Aluminium</em></figcaption>
+          </figure>
+        </IconsDiv>
+        <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
+      </WhiteDiv>
       <Gallery images={thermoImages} />
       <DarkDiv>
         <h2>Les avantages du thermolaquage</h2>
@@ -97,15 +57,17 @@ const Description = () => {
         <p>Plus <strong>économique</strong> et <strong>écologique</strong> que la peinture liquide, ce procédé ne nécessite quasiment aucun temps de séchage. C’est d’ailleurs la raison pour laquelle le thermolaquage est utilisé pour peindre des pièces détachées automobiles, comme les châssis et les jantes.</p><br />
         <p>Maîtrisant parfaitement toutes les étapes de cette opération, nous vous garantissons un résultat alliant <strong>esthétique</strong>, <strong>résistance</strong> et <strong>durabilité</strong>.</p><br />
       </DarkDiv>
-      <h2>Retrouvez aussi...</h2>
-      <ServicesContainer>
-        <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
-        <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
-        <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
-        <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
-      </ServicesContainer>     
-      <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
-    </Section>
+      <WhiteDiv>
+        <h2>Retrouvez aussi...</h2>
+        <ServicesContainer>
+          <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
+          <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
+          <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
+          <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+        </ServicesContainer>     
+        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+      </WhiteDiv>
+    </section>
   );
 }
 
