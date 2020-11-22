@@ -39,6 +39,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest"></link>
           <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+          <meta name="google-site-verification" content="cduqIGpunQkpWekArYoLA5qGSJFeaHF7tJs-SrFIsrQ" />
         </Head>
         <body>
           <Main />
