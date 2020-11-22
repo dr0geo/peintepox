@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import Button from '@/elements/Button';
 
-const Wrapper = styled.section`
+const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   & > div {
@@ -115,7 +115,7 @@ const handleClick = () => {
 
 const ContactForm = () => {
   return (
-    <>
+    <section>
       <h2>Nous nous engageons à vous répondre dans les plus brefs délais</h2>
       <Wrapper>
         <div></div>
@@ -190,7 +190,7 @@ const ContactForm = () => {
         </div>
       </Wrapper>
       <Paragraph>SARL PEINTEPOX s'engage à ce que la collecte et le traitement de vos données, effectués à partir de son site <Link href="/"><a>peintepox-decapage-thermolaquage.fr</a></Link>, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation des données collectées par ce formulaire, veuillez consulter notre <Link href="/mentions-legales"><a>politique de confidentialité</a></Link>.</Paragraph>
-    </>
+    </section>
   );
 }
 

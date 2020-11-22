@@ -6,10 +6,10 @@ const Card = styled.div`
   background-size: cover;
   border-radius: 5px;
   box-shadow: 0 0 2px 2px lightgray;
-  height: ${props => props.height ? props.height : '200px'};
+  height: ${props => props.setHeight ? props.setHeight : '200px'};
   margin: 40px 20px;
   transition: opacity 0.2s ease-in-out;
-  width: ${props => props.width ? props.width : '220px'};
+  width: ${props => props.setWidth ? props.setWidth : '220px'};
   &:hover {
     cursor: pointer;
     opacity: 0.9;
@@ -17,14 +17,14 @@ const Card = styled.div`
 
 `;
 
-const Button = styled.button`
+const Button = styled.div`
   background-color: #2f2e2e;
-  border: none;
   border-radius: 0px 0px 5px 5px;
   color: white;
-  padding: 10px 0;
+  padding: 10px 0 6px 0;
   position: relative;
-  top: ${props => props.height ? `${parseInt(props.height) - 37}px` : '163px'};
+  text-align: center;
+  top: ${props => props.setHeight ? `${parseInt(props.setHeight) - 35}px` : '165px'};
   transition: opacity 0.2s ease-in-out;
   width: 100%;
   &:hover {
@@ -39,8 +39,8 @@ const Services = props => {
   return (
     <Link href={props.page}>
       <a>
-        <Card bg={props.bg} height={props.height} width={props.width}>
-          <Button height={props.height}>{props.name}</Button>
+        <Card bg={props.bg} setHeight={props.setHeight} setWidth={props.setWidth}>
+          <Button setHeight={props.setHeight}>{props.name}</Button>
         </Card>
       </a>
     </Link>
