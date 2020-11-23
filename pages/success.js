@@ -34,7 +34,7 @@ const Success = props => {
       <main>
         <PageTitle url={titleUrl}>
           <h1>Message envoyé</h1>
-          <p>Votre message a bien été envoyé et nous faisons tout notre possible pour vous répondre au plus vite.<br/>Vous pouvez maintenant revenir à la <Link href="/"><StyledAnchor>page d'accueil</StyledAnchor></Link>.</p>
+          <p>Votre message a bien été envoyé et nous faisons tout notre possible pour vous répondre au plus vite.<br/>Vous pouvez maintenant revenir à la <Link href="/" passHref><StyledAnchor>page d'accueil</StyledAnchor></Link>.</p>
         </PageTitle>
         <WhiteDiv>
           <h2>Retrouvez aussi...</h2>

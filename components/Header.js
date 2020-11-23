@@ -93,7 +93,7 @@ const Header = props => {
       <NavMenu>
         <Link href="/"><a><Logo src="/images/logo.webp" alt="Logo Peintepox" /></a></Link>
         <PhoneMenu onClick={props.handleClick}><ion-icon name="menu-outline"></ion-icon>MENU</PhoneMenu>
-        <Link href="/">
+        <Link href="/" passHref>
           <SpecialLink 
             isActive={props.active === 1 ? true : false}
             isClicked={props.isClicked}
@@ -102,7 +102,7 @@ const Header = props => {
             ACCUEIL
           </SpecialLink>
         </Link>
-        <Link href="/thermolaquage">
+        <Link href="/thermolaquage" passHref>
           <SpecialLink 
             isActive={props.active === 2 ? true : false}
             isClicked={props.isClicked}
@@ -111,7 +111,7 @@ const Header = props => {
             Thermolaquage
           </SpecialLink>
         </Link>
-        <Link href="/peinture-fluide">
+        <Link href="/peinture-fluide" passHref>
           <SpecialLink 
             isActive={props.active === 3 ? true : false}
             isClicked={props.isClicked}
@@ -120,7 +120,7 @@ const Header = props => {
             Peinture Fluide
           </SpecialLink>
         </Link>
-        <Link href="/sablage">
+        <Link href="/sablage" passHref>
           <SpecialLink 
             isActive={props.active === 4 ? true : false}
             isClicked={props.isClicked}
@@ -129,7 +129,7 @@ const Header = props => {
             Sablage
           </SpecialLink>
         </Link>
-        <Link href="/decapage">
+        <Link href="/decapage" passHref>
           <SpecialLink 
             isActive={props.active === 5 ? true : false}
             isClicked={props.isClicked}
@@ -138,7 +138,7 @@ const Header = props => {
             Décapage
           </SpecialLink>
         </Link>
-        <Link href="/traitement-anti-corrosion">
+        <Link href="/traitement-anti-corrosion" passHref>
           <SpecialLink
             isActive={props.active === 6 ? true : false}
             isClicked={props.isClicked}
@@ -147,7 +147,7 @@ const Header = props => {
             Traitement anti-corrosion
           </SpecialLink>
         </Link>
-        <Link href="/contact">
+        <Link href="/contact" passHref>
           <SpecialLink
             isActive={props.active === 7 ? true : false}
             isClicked={props.isClicked}

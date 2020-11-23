@@ -78,7 +78,7 @@ const ContactInfo = props => {
       <StyledDiv>
         <ion-icon name="mail-outline"></ion-icon>
         <h3>Ecrivez-nous</h3>
-        <p>Accédez au <Link href='/contact'><Anchor>formulaire</Anchor></Link></p>
+        <p>Accédez au <Link href='/contact' passHref><Anchor>formulaire</Anchor></Link></p>
         <hr />
       </StyledDiv>
       <StyledDiv>
