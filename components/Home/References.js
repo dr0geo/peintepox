@@ -39,11 +39,26 @@ const References = () => {
             src="/images/companies/armee.webp" 
             alt="Logo Ministère des Armées" 
           />
-          <Companies src="/images/companies/sncf.webp" alt="Logo SNCF" />
-          <Companies src="/images/companies/ratp.webp" alt="Logo RATP" />
-          <Companies src="/images/companies/bon-marche.webp" alt="Logo Le Bon Marché" />
-          <Companies src="/images/companies/dior.webp" alt="Logo Dior" />
-          <Companies src="/images/companies/paul-smith.webp" alt="Logo Paul Smith" />
+          <Companies 
+            src="/images/companies/sncf.webp" 
+            alt="Logo SNCF"
+          />
+          <Companies 
+            src="/images/companies/ratp.webp" 
+            alt="Logo RATP"
+          />
+          <Companies 
+            src="/images/companies/bon-marche.webp" 
+            alt="Logo Le Bon Marché"
+          />
+          <Companies 
+            src="/images/companies/dior.webp" 
+            alt="Logo Dior"
+          />
+          <Companies 
+            src="/images/companies/paul-smith.webp" 
+            alt="Logo Paul Smith"
+          />
         </Container>
       </DarkDiv>
     </section>

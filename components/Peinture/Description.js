@@ -20,7 +20,7 @@ const Description = () => {
       <WhiteDiv>
         <h2>Experts en peinture fluide</h2>
         <p>Nous appliquons de la <strong>peinture acrylique</strong> sur des supports en <strong>bois</strong> ou en <strong>métal</strong>. Utilisant un matériel complet, nous possédons <strong>l’expertise</strong> et les <strong>compétences techniques</strong> nous permettant de mener à bien votre projet.</p><br />
-        <p>Nous vous proposons également un large choix de <strong>finitions</strong> : mât, brillant, lisse, etc...</p><br />
+        <p>Nous vous proposons également un large choix de <strong>finitions</strong> : mat, brillant, lisse, etc...</p><br />
         <p>Notre <strong>excellente réputation</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>nucléaire</strong> ainsi que dans <strong>l’armement</strong>.</p>
       </WhiteDiv>
       <Background url={bgUrl} />

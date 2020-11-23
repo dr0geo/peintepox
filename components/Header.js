@@ -89,8 +89,8 @@ const Header = props => {
   return (
     <Container isClicked={props.isClicked}>
       <NavMenu>
-        <Link href="/"><a><Logo src="/images/logo.png" alt="Logo Peintepox" /></a></Link>
-        <PhoneMenu onClick={props.handleClick}><img src="/images/menu.webp" alt="" height="30" width="30" />MENU</PhoneMenu>
+        <Link href="/"><a><Logo src="/images/logo.webp" alt="Logo Peintepox" /></a></Link>
+        <PhoneMenu onClick={props.handleClick}><img src="/images/menu.webp" height="30" width="30" alt="" />MENU</PhoneMenu>
         <Link href="/">
           <SpecialLink 
             isActive={props.active === 1 ? true : false}
