@@ -61,11 +61,13 @@ const PhoneMenu = styled.div`
   display: none;
   margin-bottom: 20px;
   margin-top: 10px;
-  & > img {
+  & > ion-icon {
     display: block;
+    height: 30px;
     margin-right: 6px;
     position: relative;
     top: -3px;
+    width: 30px;
   }
   &:hover {
     cursor: pointer;
@@ -90,7 +92,7 @@ const Header = props => {
     <Container isClicked={props.isClicked}>
       <NavMenu>
         <Link href="/"><a><Logo src="/images/logo.webp" alt="Logo Peintepox" /></a></Link>
-        <PhoneMenu onClick={props.handleClick}><img src="/images/menu.webp" height="30" width="30" alt="" />MENU</PhoneMenu>
+        <PhoneMenu onClick={props.handleClick}><ion-icon name="menu-outline"></ion-icon>MENU</PhoneMenu>
         <Link href="/">
           <SpecialLink 
             isActive={props.active === 1 ? true : false}
