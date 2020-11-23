@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-display: swap;
+    font-display: block;
     font-family: 'Tajawal';
     font-weight: 400;
     src: 
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-display: swap;
+    font-display: block;
     font-family: 'Tajawal';
     font-weight: 300;
     src: 
@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-display: swap;
+    font-display: block;
     font-family: 'Tajawal';
     font-weight: 700;
     src: 
