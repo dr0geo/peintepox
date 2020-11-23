@@ -40,6 +40,21 @@ const Success = props => {
           <h2>Retrouvez aussi...</h2>
           <SpecialContainer>
             <Services 
+              bg="/images/chem-pickling.webp" 
+              name="Décapage" 
+              page="/decapage"
+            />
+            <Services 
+              bg="/images/sablage.webp" 
+              name="Sablage" 
+              page="/sablage"
+            />
+            <Services 
+              bg="/images/corrosion.webp" 
+              name="Traitement anti-corrosion" 
+              page="/traitement-anti-corrosion"
+            />
+            <Services 
               bg="/images/card.webp" 
               name="Thermolaquage" 
               page="/thermolaquage" 
@@ -48,21 +63,6 @@ const Success = props => {
               bg="/images/liquid.webp" 
               name="Peinture liquide" 
               page="/peinture-liquide"
-            />
-            <Services 
-              bg="/images/sablage.webp" 
-              name="Sablage" 
-              page="/sablage"
-            />
-            <Services 
-              bg="/images/chem-pickling.webp" 
-              name="Décapage" 
-              page="/decapage"
-            />
-            <Services 
-              bg="/images/corrosion.webp" 
-              name="Traitement anti-corrosion" 
-              page="/traitement-anti-corrosion"
             />
           </SpecialContainer>
         </WhiteDiv>
