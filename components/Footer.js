@@ -79,10 +79,14 @@ const StyledDiv = styled.div`
     & > ul {
       padding-left: 6%;
       padding-right: 6%;
-    }
-    & > ul > li {
-      list-style-position: outside;
-      list-style-type: none;
+      & > li {
+        line-height: 2.5rem;
+        list-style-position: outside;
+        list-style-type: none;
+        & > a {
+          padding: 16px 10px;
+        }
+      }
     }
   }
 `;
@@ -94,8 +98,8 @@ const Footer = () => {
         <StyledDiv>
           <h4>Suivez Peintepox</h4>
           <div>
-            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" rel="noreferrer" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" rel="noreferrer" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
           </div>
         </StyledDiv>
         <StyledDiv>
@@ -110,7 +114,7 @@ const Footer = () => {
         </StyledDiv>
         <StyledDiv>
           <h4>Où nous trouver</h4>
-          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX<br /><a href="https://www.google.com/maps/place/Peint%C3%A9pox/@48.7997621,2.3000693,15z/data=!4m5!3m4!1s0x0:0x1c1be8ded7e92c91!8m2!3d48.7997621!4d2.3000693" target="_blank">Voir sur Google Maps</a></p>
+          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX<br /><a href="https://www.google.com/maps/place/Peint%C3%A9pox/@48.7997621,2.3000693,15z/data=!4m5!3m4!1s0x0:0x1c1be8ded7e92c91!8m2!3d48.7997621!4d2.3000693" rel="noreferrer" target="_blank">Voir sur Google Maps</a></p>
         </StyledDiv>
         <StyledDiv>
           <h4>Mentions Légales</h4>

@@ -59,8 +59,8 @@ const PhoneMenu = styled.div`
   align-items: center;
   font-size: 1.2rem;
   display: none;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
   & > ion-icon {
     display: block;
     height: 30px;
