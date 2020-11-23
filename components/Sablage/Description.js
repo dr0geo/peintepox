@@ -9,8 +9,8 @@ const Description = () => {
     <section>
       <WhiteDiv>
         <h2>Un procédé de traitement de surface efficace</h2>
-        <p>Nous nettoyons toutes sortes d’ouvrages en <strong>métal</strong> et en <strong>bois</strong> via la technique de projection de sable. Notre travail consiste à désoxyder et à désencrasser la surface du matériau afin qu’il retrouve son aspect d’origine et ses couleurs.</p><br />
-        <p>Nos prestations de sablage sont proposées à des <strong>tarifs attractifs</strong>. Sur votre demande, nous effectuons également des travaux de <Link href="/peinture-fluide"><a title="Découvrez nos prestations de peinture fluide">peinture fluide</a></Link>.</p><br />
+        <p>Nous nettoyons toutes sortes d’ouvrages en <strong>métal</strong>, en <strong>fonte</strong> et en <strong>inox</strong> via la technique de projection de corindon. Notre travail consiste à <strong>désoxyder</strong> et à <strong>décalaminer</strong> la surface des matériaux par projection sous pression de corindon. Cette opération permet d'assurer une bonne tenue des traitements de surface à suivre.</p><br />
+        <p>Nos prestations de sablage sont proposées à des <strong>tarifs attractifs</strong>.</p><br />
         <p>Depuis des années, de nombreux professionnels, particuliers, collectivités, industries et organismes publics nous ont confié leur projet.</p>
       </WhiteDiv>
       <DarkDiv>
@@ -19,24 +19,16 @@ const Description = () => {
         <p>Sollicitez nos services pour le sablage de vos :</p>
         <IconsDiv>
           <Figure
-            name="Meubles"
-            url="/images/icons/meuble.webp"
+            name="Fonderies"
+            url="/images/icons/fonderie.webp"
           />
           <Figure
-            name="Façades"
-            url="/images/icons/facade.webp"
-          />
-          <Figure
-            name="Poutres"
-            url="/images/icons/poutre.webp"
+            name="Radiateurs"
+            url="/images/icons/radiateur.webp"
           />
           <Figure
             name="Grilles"
             url="/images/icons/grille.webp"
-          />
-          <Figure
-            name="Pièces auto"
-            url="/images/icons/jante.webp"
           />
           <Figure
             name="Persiennes"
@@ -47,20 +39,21 @@ const Description = () => {
             url="/images/icons/portail.webp"
           />
           <Figure
-            name="Barrières"
+            name="Garde-corps"
             url="/images/icons/garde-corps.webp"
           />
+          // TODO Icons
         </IconsDiv>
       </DarkDiv>
       <WhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
-          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
-          <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
           <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
           <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
+          <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>
-        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>
       </WhiteDiv>
     </section>
   );

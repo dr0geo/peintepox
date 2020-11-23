@@ -45,9 +45,9 @@ const Success = props => {
               page="/thermolaquage" 
             />
             <Services 
-              bg="/images/fluid.webp" 
-              name="Peinture fluide" 
-              page="/peinture-fluide"
+              bg="/images/liquid.webp" 
+              name="Peinture liquide" 
+              page="/peinture-liquide"
             />
             <Services 
               bg="/images/sablage.webp" 

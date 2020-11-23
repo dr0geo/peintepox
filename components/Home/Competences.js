@@ -65,7 +65,6 @@ const Competences = () => {
         <FlexCont>
           <Circle><ion-icon name="ribbon-outline"></ion-icon></Circle>
           <h3>Professionnalisme</h3>
-          <p>Notre entreprise dispose de plusieurs certifications et offre de nombreuses garanties.</p>
         </FlexCont>
         <FlexCont>
           <Circle><ion-icon name="construct-outline"></ion-icon></Circle>

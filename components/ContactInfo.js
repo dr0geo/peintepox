@@ -72,7 +72,7 @@ const ContactInfo = props => {
       <StyledDiv>
         <ion-icon name="call-outline"></ion-icon>
         <h3>Appelez-nous</h3>
-        <p>Tel: <Anchor href="tel:+33970351037">09 70 35 10 37</Anchor></p>
+        <p>Tel: <Anchor href="tel:+33146540324">01 46 54 03 24</Anchor></p>
         <hr />
       </StyledDiv>
       <StyledDiv>

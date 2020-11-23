@@ -22,18 +22,11 @@ const Expertise = () => {
         <p>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, ainsi que des organismes publics.</p>
         <Container>
           <Services 
-            bg="/images/card.webp" 
-            name="Thermolaquage" 
-            page="/thermolaquage" 
+            bg="/images/chem-pickling.webp" 
+            name="Décapage" 
+            page="/decapage" 
             setHeight="350px" 
             setWidth="300px" 
-          />
-          <Services 
-            bg="/images/fluid.webp" 
-            name="Peinture fluide" 
-            page="/peinture-fluide" 
-            setHeight="350px" 
-            setWidth="300px"
           />
           <Services 
             bg="/images/sablage.webp" 
@@ -43,19 +36,26 @@ const Expertise = () => {
             setWidth="300px"
           />
           <Services 
-            bg="/images/chem-pickling.webp" 
-            name="Décapage" 
-            page="/decapage" 
-            setHeight="350px" 
-            setWidth="300px" 
-          />
-          <Services 
             bg="/images/corrosion.webp" 
             name="Traitement anti-corrosion" 
             page="/traitement-anti-corrosion" 
             setHeight="350px" 
             setWidth="300px"
           />
+          <Services 
+            bg="/images/card.webp" 
+            name="Thermolaquage" 
+            page="/thermolaquage" 
+            setHeight="350px" 
+            setWidth="300px" 
+          />
+          <Services 
+            bg="/images/liquid.webp" 
+            name="Peinture liquide" 
+            page="/peinture-liquide" 
+            setHeight="350px" 
+            setWidth="300px"
+          /> 
         </Container>
       </WhiteDiv>
     </section>

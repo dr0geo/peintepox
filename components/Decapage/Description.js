@@ -1,32 +1,42 @@
+import styled from 'styled-components';
 import Link from 'next/link';
-import { WhiteDiv, DarkDiv } from '@/elements/Divisions';
+import { WhiteDiv } from '@/elements/Divisions';
 import Figure from '@/elements/IconFigure';
 import { IconsDiv, ServicesContainer } from '@/elements/FlexDiv';
+import Background from '@/elements/Background';
 import Services from '@/components/Services';
 
+const SpecialWhiteDiv = styled(WhiteDiv)`
+  @media only screen and (max-width: 900px) {
+    margin-top: -20px;
+    padding-top: 0;
+  }
+`;
 
 const Description = () => {
+  const bgUrl = '/images/chem-pickling.webp';
+
   return (
     <section>
       <WhiteDiv>
         <h2>Les objectifs du décapage</h2>
-        <p>Nous redonnons aux ouvrages en métal (fer, acier, inox, cuivre, aluminium, etc...) leur <strong>aspect d’origine</strong>. Pour ce faire, nous enlevons la couche de matière qui s’est déposée à leur surface. Grâce à notre <strong>polyvalence</strong>, nous intervenons sur différents types de supports :</p>
+        <p>Nous redonnons aux ouvrages en métal (fer, acier, inox, cuivre, aluminium, etc...) leur <strong>aspect brut</strong>. Ce traitement par immersion est indispensable pour retirer la peinture existente. Grâce à notre <strong>polyvalence</strong>, nous intervenons sur différents types de supports :</p>
         <IconsDiv>
           <Figure
-            name="Façades"
-            url="/images/icons/facade.webp"
+            name="Radiateurs"
+            url="/images/icons/radiateur.webp"
           />
           <Figure
             name="Meubles"
             url="/images/icons/meuble.webp"
           />
           <Figure
-            name="Carrelages"
-            url="/images/icons/carrelage.webp"
+            name="Pièces industrielles"
+            url="/images/icons/industriel.webp"
           />
           <Figure
-            name="Carrosserie"
-            url="/images/icons/carrosserie.webp"
+            name="Persiennes"
+            url="/images/icons/persienne.webp"
           />
           <Figure
             name="Jantes"
@@ -45,22 +55,19 @@ const Description = () => {
             url="/images/icons/volet.webp"
           />
         </IconsDiv>
+        <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p>
       </WhiteDiv>
-      <DarkDiv>
-        <h2>Une technique innovante</h2>
-        <p>Nous utilisons des techniques de décapage innovantes afin de redonner aux pièces métalliques, leur apparence d’antan. Les abrasifs que nous utilisons sont <strong>efficaces</strong> et <strong>n’endommagent pas</strong> la surface des ouvrages décapés.</p><br />
-        <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p><br />
-      </DarkDiv>
-      <WhiteDiv>
+      <Background url={bgUrl} />
+      <SpecialWhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
-          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
-          <Services bg="/images/fluid.webp" name="Peinture fluide" page="/peinture-fluide" />
           <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
           <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
+          <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>
-        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
-      </WhiteDiv>
+        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>
+      </SpecialWhiteDiv>
     </section>
   );
 }

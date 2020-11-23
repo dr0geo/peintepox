@@ -102,49 +102,49 @@ const Header = props => {
             ACCUEIL
           </SpecialLink>
         </Link>
-        <Link href="/thermolaquage" passHref>
-          <SpecialLink 
-            isActive={props.active === 2 ? true : false}
-            isClicked={props.isClicked}
-            onClick={props.handleClick}
-          >
-            Thermolaquage
-          </SpecialLink>
-        </Link>
-        <Link href="/peinture-fluide" passHref>
-          <SpecialLink 
-            isActive={props.active === 3 ? true : false}
-            isClicked={props.isClicked}
-            onClick={props.handleClick}
-          >
-            Peinture Fluide
-          </SpecialLink>
-        </Link>
-        <Link href="/sablage" passHref>
-          <SpecialLink 
-            isActive={props.active === 4 ? true : false}
-            isClicked={props.isClicked}
-            onClick={props.handleClick}
-          >
-            Sablage
-          </SpecialLink>
-        </Link>
         <Link href="/decapage" passHref>
           <SpecialLink 
-            isActive={props.active === 5 ? true : false}
+            isActive={props.active === 2 ? true : false}
             isClicked={props.isClicked}
             onClick={props.handleClick}
           >
             Décapage
           </SpecialLink>
         </Link>
+        <Link href="/sablage" passHref>
+          <SpecialLink 
+            isActive={props.active === 3 ? true : false}
+            isClicked={props.isClicked}
+            onClick={props.handleClick}
+          >
+            Sablage
+          </SpecialLink>
+        </Link>
         <Link href="/traitement-anti-corrosion" passHref>
           <SpecialLink
-            isActive={props.active === 6 ? true : false}
+            isActive={props.active === 4 ? true : false}
             isClicked={props.isClicked}
             onClick={props.handleClick}
           >
             Traitement anti-corrosion
+          </SpecialLink>
+        </Link>
+        <Link href="/thermolaquage" passHref>
+          <SpecialLink 
+            isActive={props.active === 5 ? true : false}
+            isClicked={props.isClicked}
+            onClick={props.handleClick}
+          >
+            Thermolaquage
+          </SpecialLink>
+        </Link>
+        <Link href="/peinture-liquide" passHref>
+          <SpecialLink 
+            isActive={props.active === 6 ? true : false}
+            isClicked={props.isClicked}
+            onClick={props.handleClick}
+          >
+            Peinture liquide
           </SpecialLink>
         </Link>
         <Link href="/contact" passHref>

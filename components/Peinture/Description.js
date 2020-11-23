@@ -18,19 +18,19 @@ const Description = () => {
   return (
     <section>
       <WhiteDiv>
-        <h2>Experts en peinture fluide</h2>
-        <p>Nous appliquons de la <strong>peinture acrylique</strong> sur des supports en <strong>bois</strong> ou en <strong>métal</strong>. Utilisant un matériel complet, nous possédons <strong>l’expertise</strong> et les <strong>compétences techniques</strong> nous permettant de mener à bien votre projet.</p><br />
-        <p>Nous vous proposons également un large choix de <strong>finitions</strong> : mat, brillant, lisse, etc...</p><br />
-        <p>Notre <strong>excellente réputation</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>nucléaire</strong> ainsi que dans <strong>l’armement</strong>.</p>
+        <h2>Experts en peinture liquide</h2>
+        <p>Nous appliquons de la <strong>peinture polyuréthane</strong> sur des pièces en <strong>bois</strong>, en <strong>médium</strong> ou en <strong>plastique</strong>. Utilisant un matériel complet, nous possédons <strong>l’expertise</strong> et les <strong>compétences techniques</strong> nous permettant de mener à bien votre projet.</p><br />
+        <p>Nous vous proposons également un large choix de <strong>finitions</strong> : mat, satiné, lisse, etc...</p><br />
+        <p>Notre <strong>savoir-faire</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>nucléaire</strong> ainsi que dans <strong>l’armement</strong>.</p>
       </WhiteDiv>
       <Background url={bgUrl} />
       <SpecialWhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
           <Services 
-            bg="/images/card.webp" 
-            name="Thermolaquage" 
-            page="/thermolaquage"
+            bg="/images/chem-pickling.webp" 
+            name="Décapage" 
+            page="/decapage"
           />
           <Services 
             bg="/images/sablage.webp" 
@@ -38,17 +38,17 @@ const Description = () => {
             page="/sablage"
           />
           <Services 
-            bg="/images/chem-pickling.webp" 
-            name="Décapage" 
-            page="/decapage"
-          />
-          <Services 
             bg="/images/corrosion.webp" 
             name="Traitement anti-corrosion" 
             page="/traitement-anti-corrosion"
           />
+          <Services 
+            bg="/images/card.webp" 
+            name="Thermolaquage" 
+            page="/thermolaquage"
+          />
         </ServicesContainer>
-        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a>nous contacter</a></Link>, nous serons ravis de vous aider.</p>
+        <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>
       </SpecialWhiteDiv>
     </section>
   );

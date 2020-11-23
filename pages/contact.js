@@ -12,7 +12,7 @@ const Contact = props => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox - Contact</title>
-        <meta name="description" content="Contactez l'entreprise Peintepox afin de recevoir votre devis gratuit pour ses prestations de thermolaquage, peinture fluide, sablage, décapage et traitement anti-corrosion." />
+        <meta name="description" content="Contactez l'entreprise Peintepox afin de recevoir votre devis gratuit pour ses prestations de thermolaquage, peinture liquide, sablage, décapage et traitement anti-corrosion." />
       </Head>
       <Header active={7} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>

@@ -15,7 +15,7 @@ const Traitement = props => {
         <title>Peintepox - Traitement anti-corrosion</title>
         <meta name="description" content="Découvrez les prestations de traitement anti-corrosion pour vos matériaux métalliques proposées par la société Peintépox, située en région parisienne." />
       </Head>
-      <Header active={6} isClicked={props.isClicked} handleClick={props.handleClick} />
+      <Header active={4} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Traitement anti-corrosion</h1>

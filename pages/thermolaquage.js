@@ -15,11 +15,11 @@ const Thermolaquage = props => {
         <title>Peintepox - Thermolaquage</title>
         <meta name="description" content="Découvrez les prestations de thermolaquage proposées par la société Peintépox, située en région parisienne." />
       </Head>
-      <Header active={2} isClicked={props.isClicked} handleClick={props.handleClick} />
+      <Header active={5} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
           <h1>Thermolaquage</h1>
-          <p>L’entreprise Peintepox possède une solide expertise dans l’application de peinture en poudre thermodurcissable, ou thermolaquage.<br />Utiliser le thermolaquage pour vos pièces améliore leur résistance, la tenue et l'uniformité de leurs couleurs, et vous permet de bénéficier d'un large choix de teintes, textures et effets.</p>
+          <p>L’entreprise Peintepox possède une solide expertise dans l’application de peinture en poudre thermodurcissable appelée thermolaquage.<br />Utiliser le thermolaquage après préparation de vos pièces améliore leur résistance, la tenue et l'uniformité de leurs couleurs, et vous permet de bénéficier d'un large choix de teintes, textures et effets.</p>
         </PageTitle>
         <Description />
         <ContactInfo />
