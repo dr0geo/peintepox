@@ -32,6 +32,8 @@ const PageTitle = styled.div`
     padding-right: 3%;
     position: relative;
     & > h1, & > p {
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
     }
   }

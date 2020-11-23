@@ -7,6 +7,7 @@ import Services from '@/components/Services';
 
 const SpecialIconsDiv = styled(IconsDiv)`
   margin-bottom: 15px;
+  max-width: 850px;
   & > figure {
     align-items: center;
     display: flex;
@@ -14,6 +15,9 @@ const SpecialIconsDiv = styled(IconsDiv)`
     min-width: 330px;
     & > img {
       align-self: center;
+    }
+    & > figcaption {
+      max-width: 400px;
     }
     &:last-of-type > figcaption {
       border-bottom: 1px solid black;

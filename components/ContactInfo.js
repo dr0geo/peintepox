@@ -84,7 +84,7 @@ const ContactInfo = props => {
       <StyledDiv>
         <ion-icon name="time-outline"></ion-icon>
         <h3>Horaires d'ouverture</h3>
-        <p>Lundi - vendredi : 7:30 - 12:00 & 13:15 - 18:00</p>
+        <p>Lun - ven : 7:30 - 12:00 & 13:15 - 18:00</p>
       </StyledDiv>
     </Section>
   );

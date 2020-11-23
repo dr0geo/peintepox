@@ -7,6 +7,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  max-width: 1000px;
   @media only screen and (max-width: 1000px) {
     max-width: 700px;
   }
@@ -56,8 +57,32 @@ const References = () => {
             alt="Logo Dior"
           />
           <Companies 
-            src="/images/companies/paul-smith.webp" 
-            alt="Logo Paul Smith"
+            src="/images/companies/automatic-systems.webp" 
+            alt="Logo Automatic Systems"
+          />
+          <Companies 
+            src="/images/companies/bouygues.webp" 
+            alt="Logo Bouygues" 
+          />
+          <Companies 
+            src="/images/companies/mairie.webp" 
+            alt="Logo Mairie de Paris"
+          />
+          <Companies 
+            src="/images/companies/alpha-store.webp" 
+            alt="Logo Alpha-Store"
+          />
+          <Companies 
+            src="/images/companies/schindler.webp" 
+            alt="Logo Schindler"
+          />
+          <Companies 
+            src="/images/companies/dupont-kine.webp" 
+            alt="Logo Dupont Kine"
+          />
+          <Companies 
+            src="/images/companies/signature.webp" 
+            alt="Logo Signature"
           />
         </Container>
       </DarkDiv>

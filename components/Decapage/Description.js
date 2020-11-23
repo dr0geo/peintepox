@@ -6,6 +6,13 @@ import { IconsDiv, ServicesContainer } from '@/elements/FlexDiv';
 import Background from '@/elements/Background';
 import Services from '@/components/Services';
 
+const SpecialIconsDiv = styled(IconsDiv)`
+  max-width: 850px;
+  @media only screen and (max-width: 900px) {
+    max-width: 530px;
+  }
+`;
+
 const SpecialWhiteDiv = styled(WhiteDiv)`
   @media only screen and (max-width: 900px) {
     margin-top: -20px;
@@ -21,7 +28,7 @@ const Description = () => {
       <WhiteDiv>
         <h2>Les objectifs du décapage</h2>
         <p>Nous redonnons aux ouvrages en métal (fer, acier, inox, cuivre, aluminium, etc...) leur <strong>aspect brut</strong>. Ce traitement par immersion est indispensable pour retirer la peinture existente. Grâce à notre <strong>polyvalence</strong>, nous intervenons sur différents types de supports :</p>
-        <IconsDiv>
+        <SpecialIconsDiv>
           <Figure
             name="Radiateurs"
             url="/images/icons/radiateur.webp"
@@ -54,7 +61,7 @@ const Description = () => {
             name="Volets"
             url="/images/icons/volet.webp"
           />
-        </IconsDiv>
+        </SpecialIconsDiv>
         <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p>
       </WhiteDiv>
       <Background url={bgUrl} />

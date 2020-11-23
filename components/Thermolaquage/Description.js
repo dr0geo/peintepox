@@ -34,10 +34,6 @@ const Description = () => {
         <p>Nous appliquons des poudres époxy, <strong>sans solvant</strong> sur des métaux ferreux et non ferreux :</p>
         <IconsDiv>
           <Figure
-            name="Acier"
-            url="/images/icons/thermolaquage/Acier.webp"
-          />
-          <Figure
             name="Fer"
             url="/images/icons/thermolaquage/Fer.webp"
           />
@@ -49,7 +45,18 @@ const Description = () => {
             name="Aluminium"
             url="/images/icons/thermolaquage/Al.webp"
           />
-          // TODO Add icons
+          <Figure
+            name="Inox"
+            url="/images/icons/thermolaquage/inox.webp"
+          />
+          <Figure
+            name="Laiton"
+            url="/images/icons/thermolaquage/laiton.webp"
+          />
+          <Figure
+            name="Alliage"
+            url="/images/icons/thermolaquage/alliage.webp"
+          />
         </IconsDiv>
         <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
       </WhiteDiv>

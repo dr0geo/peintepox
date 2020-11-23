@@ -42,7 +42,6 @@ const Description = () => {
             name="Garde-corps"
             url="/images/icons/garde-corps.webp"
           />
-          // TODO Icons
         </IconsDiv>
       </DarkDiv>
       <WhiteDiv>

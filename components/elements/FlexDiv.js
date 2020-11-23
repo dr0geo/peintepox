@@ -5,7 +5,7 @@ export const IconsDiv = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 20px auto;
-  max-width: 850px;
+  max-width: 700px;
   & > figure {
     padding: 15px 0;
   }
@@ -16,9 +16,6 @@ export const IconsDiv = styled.div`
   & > figure > figcaption {
     margin-top: 15px;
     text-align: center;
-  }
-  @media only screen and (max-width: 720px) {
-    max-width: 530px;
   }
 `;
 

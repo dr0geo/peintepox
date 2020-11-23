@@ -100,6 +100,10 @@ const GlobalStyle = createGlobalStyle`
     list-style-type: circle;
   }
 
+  figcaption {
+    max-width: 100px;
+  }
+
   hr {
     display: none;
     @media only screen and (max-width: 900px) {
