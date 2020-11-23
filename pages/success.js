@@ -29,6 +29,7 @@ const Success = props => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox - Message envoyé</title>
         <meta name="robots" content="noindex" />
+        <meta name="description" content="Message envoyé, nous faisons tout notre possible pour vous répondre au plus vite." />
       </Head>
       <Header isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
