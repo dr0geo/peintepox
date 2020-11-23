@@ -13,11 +13,11 @@ const PageTitle = styled.div`
   flex-direction: column;
   height: ${props => props.isHome ? '100vh' : 'auto'};
   justify-content: center;
-  margin-bottom: ${props => props.isHome ? '-115px' : 'auto'};
+  margin-bottom: ${props => props.isHome ? '-125px' : 'auto'};
   min-height: 650px;
   padding-left: 10%;
   position: ${props => props.isHome ? 'relative' : 'static'};
-  top: -124px;
+  top: -135px;
   & > p {
     max-width: 600px;
     padding: 5px 0;
