@@ -7,10 +7,10 @@ const Section = styled.section`
   display: flex;
   font-weight: 300;
   justify-content: center;
-  margin-bottom: ${props => props.isHome ? '-133px' : 'auto'};
+  margin-bottom: ${props => props.isHome ? '-117px' : 'auto'};
   padding: 15px 0;
   position: ${props => props.isHome ? 'relative' : 'static'};
-  top: -133px;
+  top: -117px;
   @media only screen and (max-width: 900px) {
     align-items: center;
     flex-direction: column;
@@ -45,6 +45,7 @@ const StyledDiv = styled.div`
   }
   & > p {
     margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
     text-align: left;
