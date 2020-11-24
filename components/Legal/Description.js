@@ -29,6 +29,9 @@ const Paragraph = styled.p`
 const List = styled.ul`
   margin: 10px auto;
   max-width: 800px;
+  & > li {
+    padding-left: 5%;
+  }
 `;
 
 const Description = () => {
@@ -39,10 +42,6 @@ const Description = () => {
         <Paragraph>SARL PEINTEPOX n'enregistre pas d'informations personnelles permettant l'identification, à l'exception des formulaires que l'utilisateur est libre de remplir. Ces informations ne seront pas utilisées sans votre accord, nous les utiliserons seulement pour vous adresser des courriers, des brochures, des devis ou vous contacter.</Paragraph>
         <Paragraph>Les informations recueillies sur les sites bénéficient de la protection de la loi "Informatique et Libertés" n° 78-17 du 06 janvier 1978. Elles bénéficient d'un droit d'accès, de rectification, d'opposition à communication et de suppression sur simple demande à SARL PEINTEPOX, 63 Rue Alphonse Pluchet, 92220 BAGNEUX.</Paragraph>
         <Paragraph>SARL PEINTEPOX pourra procéder à des analyses statistiques sans que celles-ci soient nominatives et pourra en informer des tiers (organismes d'évaluation de fréquentation) sous une forme résumée et non nominative.</Paragraph>
-      </div>
-      <div>
-        <h2>Utilisation de cookies</h2>
-        <Paragraph>La gestion des commandes nécessite l'utilisation de cookies. Des informations non personnelles sont enregistrées par ce système de cookies (fichiers texte utilisés pour reconnaître un utilisateur et ainsi faciliter son utilisation du site). Ceux-ci n'ont aucune signification en dehors de leur utilisation sur le site <Link href="/"><a>peintepox.vercel.app</a></Link>.</Paragraph>
       </div>
       <div>
         <h2>Liens hypertexte</h2>
