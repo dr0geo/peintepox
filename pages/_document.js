@@ -36,7 +36,7 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest"></link>
           <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
-          <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+          <script noModule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
           <meta name="google-site-verification" content="cduqIGpunQkpWekArYoLA5qGSJFeaHF7tJs-SrFIsrQ" />
         </Head>
         <body>
