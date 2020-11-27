@@ -10,19 +10,23 @@ import Services from '@/components/Services';
 const thermoImages = [
   {
     id: 'thermo1',
-    url: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
+    url: '/images/thermolaquage/thermo1.webp'
   },
   {
     id: 'thermo2',
-    url:'https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80'
+    url:'/images/thermolaquage/thermo2.webp'
   },
   {
     id: 'thermo3',
-    url: 'https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
+    url: '/images/thermolaquage/thermo3.webp'
   },
   {
     id: 'thermo4',
-    url: 'https://images.unsplash.com/photo-1522322512347-a0e57fd1744c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80'
+    url: '/images/thermolaquage/thermo4.webp'
+  },
+  {
+    id: 'thermo5',
+    url: '/images/thermolaquage/thermo5.webp'
   }
 ];
 

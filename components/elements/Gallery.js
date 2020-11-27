@@ -1,20 +1,23 @@
 import styled, { keyframes } from 'styled-components';
 
 const translate = keyframes`
-  0%, 20% {
+  0%, 15% {
     transform: translateX(0);
   }
-  25%, 45% {
+  20%, 35% {
     transform: translateX(-610px);
   }
-  50%, 70% {
+  40%, 55% {
     transform: translateX(-1220px);
   }
-  75%, 95% {
+  60%, 75% {
     transform: translateX(-1830px);
   }
-  100% {
+  80%, 95% {
     transform: translateX(-2440px);
+  }
+  100% {
+    transform: translateX(-3050px);
   }
 `;
 
