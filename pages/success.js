@@ -52,8 +52,8 @@ const Success = props => {
             />
             <Services 
               bg="/images/corrosion.webp" 
-              name="Traitement anti-corrosion" 
-              page="/traitement-anti-corrosion"
+              name="Traitement anticorrosion" 
+              page="/traitement-anticorrosion"
             />
             <Services 
               bg="/images/card.webp" 

@@ -6,10 +6,7 @@ import Button from '@/elements/Button';
 
 
 const Container = styled(ServicesContainer)`
-  @media only screen and (max-width: 1350px) {
-  max-width: 800px;
-  }
-  
+  max-width: 1000px;
 `;
 
 const FlexCont = styled.div`
@@ -58,15 +55,6 @@ const Competences = () => {
       <h2>Nos atouts</h2>
       <Container>
         <FlexCont>
-          <Circle><ion-icon name="card-outline"></ion-icon></Circle>
-          <h3>Tarifs</h3>
-          <p>Nous proposons des prestations de qualité à des tarifs concurrentiels.</p>
-        </FlexCont>
-        <FlexCont>
-          <Circle><ion-icon name="ribbon-outline"></ion-icon></Circle>
-          <h3>Professionnalisme</h3>
-        </FlexCont>
-        <FlexCont>
           <Circle><ion-icon name="construct-outline"></ion-icon></Circle>
           <h3>Savoir-faire</h3>
           <p>Notre expertise, notre réactivité et notre savoir-faire sont les gages d’une finition soignée.</p>
@@ -75,6 +63,11 @@ const Competences = () => {
           <Circle><ion-icon name="bulb-outline"></ion-icon></Circle>
           <h3>Expérience</h3>
           <p>Nous sommes spécialisés dans le traitement de surface de pièces métalliques depuis 1945.</p>
+        </FlexCont>
+        <FlexCont>
+          <Circle><ion-icon name="card-outline"></ion-icon></Circle>
+          <h3>Tarifs</h3>
+          <p>Nous proposons des prestations de qualité à des tarifs concurrentiels.</p>
         </FlexCont>
       </Container>
       <Link href="/contact"><Button>Contactez-nous pour recevoir un devis gratuit</Button></Link>

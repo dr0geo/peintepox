@@ -12,14 +12,14 @@ const Traitement = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Traitement anti-corrosion</title>
-        <meta name="description" content="Découvrez les prestations de traitement anti-corrosion pour vos matériaux métalliques proposées par la société Peintépox, située en région parisienne." />
+        <title>Peintepox - Traitement anticorrosion</title>
+        <meta name="description" content="Découvrez les prestations de traitement anticorrosion pour vos matériaux métalliques proposées par la société Peintépox, située en région parisienne." />
       </Head>
       <Header active={4} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl}>
-          <h1>Traitement anti-corrosion</h1>
-          <p>Afin de résister aux contraintes dictées par l'environnement dans lequel sont amenées à évoluer vos pièces, un traitement anti-corrosion peut s'avérer indispensable.<br/>Peintepox vous permet de bénéficier de son expertise dans le domaine afin d'allonger la durée de vie de vos pièces métalliques.</p>
+          <h1>Traitement anticorrosion</h1>
+          <p>Afin de résister aux contraintes dictées par l'environnement dans lequel sont amenées à évoluer vos pièces, un traitement anticorrosion peut s'avérer indispensable.<br/>Peintepox vous permet de bénéficier de son expertise dans le domaine afin d'allonger la durée de vie de vos pièces métalliques.</p>
         </PageTitle>
         <Description />
         <ContactInfo />

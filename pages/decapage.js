@@ -20,7 +20,7 @@ const Decapage = props => {
       <main>
         <PageTitle url={titleUrl}>
           <h1>Décapage</h1>
-          <p>Grâce à sa forte expérience dans le domaine, Peintepox vous propose de réaliser le décapage chimique de vos pièces métalliques. Il s'agit, entre autres, de supprimer les traces de vernis, les graffitis et les peintures superflues à la surface de vos pièces.</p>
+          <p>Grâce à sa forte expérience dans le domaine, Peintepox vous propose de réaliser le décapage chimique par immersion de vos pièces métalliques. Ce procédé permet de retirer les peintures, vernis et poudres époxy.</p>
         </PageTitle>
         <Description />
         <ContactInfo />

@@ -37,8 +37,8 @@ const Expertise = () => {
           />
           <Services 
             bg="/images/corrosion.webp" 
-            name="Traitement anti-corrosion" 
-            page="/traitement-anti-corrosion" 
+            name="Traitement anticorrosion" 
+            page="/traitement-anticorrosion" 
             setHeight="350px" 
             setWidth="300px"
           />

@@ -25,13 +25,13 @@ const References = () => {
     <section>
       <WhiteDiv>
         <h2>Pourquoi travailler avec nous ?</h2>
-        <p>Notre travail consiste à appliquer des <Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">poudres thermodurcissable</a></Link> sur des métaux ferreux et non ferreux, aluminium, inox, alliages... Nous pouvons également intervenir sur d’autres supports, qu'ils soient en <strong>bois</strong>, en <strong>medium</strong> ou en <strong>plastique</strong> et assurons la préparation par masticage, ponçage, apprêt et <Link href="/peinture-liquide"><a title="Découvrez nos prestations de peinture liquide">peinture</a></Link>.</p>
+        <p>Notre travail consiste à appliquer des <Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">poudres thermodurcissables</a></Link> sur des métaux ferreux et non ferreux, aluminium, inox, alliages... Nous pouvons également intervenir sur d’autres supports, qu'ils soient en <strong>bois</strong>, en <strong>medium</strong> ou en <strong>plastique</strong> et assurons la préparation par masticage, ponçage, apprêt avant l'application de <Link href="/peinture-liquide"><a title="Découvrez nos prestations de peinture liquide">peinture</a></Link>.</p>
         <br />
         <p>Nous disposons d'une <strong>équipe expérimentée</strong> et d’un atelier bien équipé pour répondre à vos besoins.</p>
         <br />
         <p>Nos <strong>délais</strong> de réalisation sont <strong>courts</strong> et <strong>respectés</strong>.</p>
         <br />
-        <p>Nous mettons tout en oeuvre pour un résultat <strong>conforme à vos exigences</strong>.</p>
+        <p>Nous mettons tout en œuvre pour un résultat <strong>conforme à vos exigences</strong>.</p>
       </WhiteDiv>
       <DarkDiv>
         <h2>Ils nous ont fait confiance</h2>

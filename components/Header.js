@@ -120,13 +120,13 @@ const Header = props => {
             Sablage
           </SpecialLink>
         </Link>
-        <Link href="/traitement-anti-corrosion" passHref>
+        <Link href="/traitement-anticorrosion" passHref>
           <SpecialLink
             isActive={props.active === 4 ? true : false}
             isClicked={props.isClicked}
             onClick={props.handleClick}
           >
-            Traitement anti-corrosion
+            Traitement anticorrosion
           </SpecialLink>
         </Link>
         <Link href="/thermolaquage" passHref>

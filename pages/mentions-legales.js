@@ -14,7 +14,7 @@ const Legal = props => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox - Mentions Légales</title>
         <meta name="robots" content="noindex" />
-        <meta name="description" content="Mentions légales de l'entreprise Peintepox spécialisée en décapage, sablage, traitement anti-corrosion, thermolaquage et peinture liquide, située en région parisienne." />
+        <meta name="description" content="Mentions légales de l'entreprise Peintepox spécialisée en décapage, sablage, traitement anticorrosion, thermolaquage et peinture liquide, située en région parisienne." />
       </Head>
       <Header isClicked={props.isClicked} handleClick={props.handleClick} />
       <PageTitle url={titleUrl}>

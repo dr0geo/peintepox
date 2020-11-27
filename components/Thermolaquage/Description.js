@@ -58,13 +58,13 @@ const Description = () => {
             url="/images/icons/thermolaquage/alliage.webp"
           />
         </IconsDiv>
-        <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anti-corrosion"><a title="Découvrez nos prestations de traitement anti-corrosion">traitement anti-corrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
+        <p><strong>Perfectionnistes</strong>, nous accordons une grande importance aux finitions. Outre le thermolaquage, le <Link href="/traitement-anticorrosion"><a title="Découvrez nos prestations de traitement anticorrosion">traitement anticorrosion</a></Link> figure aussi parmi nos prestations. Nous proposons nos services aux particuliers, aux industries, aux collectivités et aux organismes publics en région parisienne. Nous travaillons également pour l’Armée Française.</p>
       </WhiteDiv>
       <Gallery images={thermoImages} />
       <DarkDiv>
         <h2>Les avantages du thermolaquage</h2>
         <p>Le thermolaquage est une technique de <strong>traitement de surface</strong>. Elle offre un large panel de couleurs, d’effets (métallisé, texturé, sablé…) et de finitions.</p><br />
-        <p>Plus <strong>économique</strong> et <strong>écologique</strong> que la peinture industrielle, ce procédé par une polymérisation à 180° permet de raccourcir les délais de réalisation en supprimant les temps de séchages.</p><br />
+        <p>Plus <strong>économique</strong> et <strong>écologique</strong> que la peinture industrielle, ce procédé par une polymérisation à 180° permet de raccourcir les délais de réalisation en supprimant les temps de séchage.</p><br />
         <p>Maîtrisant parfaitement toutes les étapes de cette opération, nous vous garantissons un résultat alliant <strong>esthétique</strong>, <strong>résistance</strong> et <strong>durabilité</strong>.</p><br />
       </DarkDiv>
       <WhiteDiv>
@@ -72,7 +72,7 @@ const Description = () => {
         <ServicesContainer>
           <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
           <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
-          <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+          <Services bg="/images/corrosion.webp" name="Traitement anticorrosion" page="/traitement-anticorrosion" />
           <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>     
         <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>

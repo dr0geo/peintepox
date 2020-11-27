@@ -62,14 +62,14 @@ const Description = () => {
             url="/images/icons/volet.webp"
           />
         </SpecialIconsDiv>
-        <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte des professionnels, des particuliers, des industries, des collectivités et des organismes publics.</p>
+        <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte de professionnels, de particuliers, d'industries, de collectivités et d'organismes publics.</p>
       </WhiteDiv>
       <Background url={bgUrl} />
       <SpecialWhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
           <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
-          <Services bg="/images/corrosion.webp" name="Traitement anti-corrosion" page="/traitement-anti-corrosion" />
+          <Services bg="/images/corrosion.webp" name="Traitement anticorrosion" page="/traitement-anticorrosion" />
           <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
           <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>

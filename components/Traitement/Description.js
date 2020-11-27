@@ -33,8 +33,8 @@ const Description = () => {
         <p>Pour protéger les pièces métalliques <strong>contre la rouille</strong>, nous appliquons des <strong>enduits</strong> qui font office de <strong>barrière à l’oxydation</strong>. Ils sont très résistants aux agressions climatiques et peuvent être appliqués <strong>sur tous types de supports</strong> en fer, en acier et en cuivre (pièces automobiles, ouvrages industriels, matériaux de construction, etc...).</p>
       </WhiteDiv>
       <DarkDiv>
-        <h2>Étapes du traitement anti-corrosion</h2>
-        <p>Nous <strong>maîtrisons parfaitement</strong> les différentes étapes du traitement anti-corrosion des métaux :</p>
+        <h2>Étapes du traitement anticorrosion</h2>
+        <p>Nous <strong>maîtrisons parfaitement</strong> les différentes étapes du traitement anticorrosion des métaux :</p>
         <SpecialIconsDiv>
           <Figure 
             name="Nettoyage et préparation du support"

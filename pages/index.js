@@ -17,13 +17,13 @@ const Home = props => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox - Décapage, sablage et peinture</title>
-        <meta name="description" content="Bienvenue sur le site de Peintepox, société implantée en région parisienne et spécialisée en décapage, sablage, traitement anti-corrosion, thermolaquage et peinture liquide." />
+        <meta name="description" content="Bienvenue sur le site de Peintepox, société implantée en région parisienne et spécialisée en décapage, sablage, traitement anticorrosion, thermolaquage et peinture liquide." />
       </Head>
       <Header active={1} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
         <PageTitle url={titleUrl} isHome={true}>
           <h1>Peintepox</h1>
-          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de thermolaquage, peinture liquide, sablage, décapage et traitement anti-corrosion.</p>
+          <p>L’entreprise spécialisée dans le domaine du traitement de surface vous propose ses services de thermolaquage, peinture liquide, sablage, décapage et traitement anticorrosion.</p>
         </PageTitle>
         <ContactInfo isHome={true} />
         <Expertise />
