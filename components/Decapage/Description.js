@@ -61,6 +61,14 @@ const Description = () => {
             name="Volets"
             url="/images/icons/volet.webp"
           />
+          <Figure
+            name="Mobilier de jardin"
+            url="/images/icons/volet.webp"
+          />
+          <Figure
+            name="Mobilier urbain"
+            url="/images/icons/volet.webp"
+          />
         </SpecialIconsDiv>
         <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte de professionnels, de particuliers, d'industries, de collectivités et d'organismes publics.</p>
       </WhiteDiv>

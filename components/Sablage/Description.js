@@ -9,7 +9,7 @@ const Description = () => {
     <section>
       <WhiteDiv>
         <h2>Un procédé de traitement de surface efficace</h2>
-        <p>Nous nettoyons toutes sortes d’ouvrages en <strong>métal</strong>, en <strong>fonte</strong> et en <strong>inox</strong> via la technique de projection de corindon. Notre travail consiste à <strong>désoxyder</strong> et à <strong>décalaminer</strong> la surface des matériaux par projection sous pression de corindon. Cette opération permet d'assurer une bonne tenue des traitements de surface à suivre.</p><br />
+        <p>Nous nettoyons toutes sortes d’ouvrages en <strong>métal</strong>, en <strong>fonte</strong> et en <strong>inox</strong> via la technique de projection d'abrasif. Notre travail consiste à <strong>désoxyder</strong> et à <strong>décalaminer</strong> la surface des matériaux par projection sous pression de corindon. Cette opération permet d'assurer une bonne tenue des traitements de surface à suivre.</p><br />
         <p>Nos prestations de sablage sont proposées à des <strong>tarifs attractifs</strong>.</p><br />
         <p>Depuis des années, de nombreux professionnels, particuliers, collectivités, industries et organismes publics nous ont confié leur projet.</p>
       </WhiteDiv>

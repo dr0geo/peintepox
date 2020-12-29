@@ -19,9 +19,9 @@ const Description = () => {
     <section>
       <WhiteDiv>
         <h2>Experts en peinture liquide</h2>
-        <p>Nous appliquons de la <strong>peinture polyuréthane</strong> sur des pièces en <strong>bois</strong>, en <strong>médium</strong> ou en <strong>plastique</strong>. Utilisant un matériel complet, nous possédons <strong>l’expertise</strong> et les <strong>compétences techniques</strong> nous permettant de mener à bien votre projet.</p><br />
+        <p>Nous appliquons de la <strong>peinture appropriée</strong> sur des pièces en <strong>bois</strong>, en <strong>médium</strong> ou en <strong>plastique</strong>. Utilisant un matériel complet, nous possédons <strong>l’expertise</strong> et les <strong>compétences techniques</strong> nous permettant de mener à bien votre projet.</p><br />
         <p>Nous vous proposons également un large choix de <strong>finitions</strong> : mat, satiné, lisse, etc...</p><br />
-        <p>Notre <strong>savoir-faire</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>nucléaire</strong> ainsi que dans <strong>l’armement</strong>.</p>
+        <p>Notre <strong>savoir-faire</strong> dans le domaine fait que nous sommes sollicités pour peindre des pièces utilisées dans le secteur <strong>aéronautique</strong> ainsi que dans <strong>l’armement</strong>.</p>
       </WhiteDiv>
       <Background url={bgUrl} />
       <SpecialWhiteDiv>

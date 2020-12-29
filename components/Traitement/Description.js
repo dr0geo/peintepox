@@ -30,30 +30,26 @@ const Description = () => {
     <section>
       <WhiteDiv>
         <h2>Une protection efficace et durable contre la rouille</h2>
-        <p>Pour protéger les pièces métalliques <strong>contre la rouille</strong>, nous appliquons des <strong>enduits</strong> qui font office de <strong>barrière à l’oxydation</strong>. Ils sont très résistants aux agressions climatiques et peuvent être appliqués <strong>sur tous types de supports</strong> en fer, en acier et en cuivre (pièces automobiles, ouvrages industriels, matériaux de construction, etc...).</p>
+        <p>Pour protéger les pièces métalliques <strong>contre la corrosion</strong>, nous appliquons après sablage un primaire époxy thermodurcissable spécialement conçu par nos fournisseurs pour faire <strong>barrière à l’oxydation</strong>.</p>
       </WhiteDiv>
       <DarkDiv>
         <h2>Étapes du traitement anticorrosion</h2>
         <p>Nous <strong>maîtrisons parfaitement</strong> les différentes étapes du traitement anticorrosion des métaux :</p>
         <SpecialIconsDiv>
           <Figure 
-            name="Nettoyage et préparation du support"
+            name="Dégraissage et préparation du support par sablage"
             url="/images/icons/traitement/nettoyage.webp"
           />
           <Figure 
-            name="Application du produit curatif contre la rouille"
+            name="Application du primaire (polyzinc) contre la rouille"
             url="/images/icons/traitement/rouille.webp"
-          />
-          <Figure 
-            name="Application d’une couche de produit isolant"
-            url="/images/icons/traitement/isolation.webp"
           />
           <figure>
             <img src="/images/icons/traitement/thermolaquage.webp" alt="Thermolaquage" />
             <figcaption><em><Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">Thermolaquage</a></Link></em></figcaption>
           </figure>
         </SpecialIconsDiv>
-        <p>Quelles que soient la forme, les dimensions et les caractéristiques de la pièce métallique à traiter, nous n’avons qu’un seul objectif : <strong>enlever toutes les parties rouillées</strong> qui ternissent son état et son aspect.</p><br />
+        <p>Quelles que soient la forme, les dimensions et les caractéristiques de la pièce métallique à traiter, nous n’avons qu’un seul objectif : <strong>prévenir la rouille</strong>.</p><br />
       </DarkDiv>
       <WhiteDiv>
         <h2>Retrouvez aussi...</h2>

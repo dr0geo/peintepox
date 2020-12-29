@@ -66,7 +66,7 @@ const PhoneMenu = styled.div`
     height: 30px;
     margin-right: 6px;
     position: relative;
-    top: -3px;
+    top: 1px;
     width: 30px;
   }
   &:hover {
