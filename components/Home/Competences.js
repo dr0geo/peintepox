@@ -70,7 +70,7 @@ const Competences = () => {
           <p>Nous proposons des prestations de qualité à des tarifs concurrentiels.</p>
         </FlexCont>
       </Container>
-      <Link href="/contact"><Button>Contactez-nous pour recevoir un devis gratuit</Button></Link>
+      <Link href="/contact" passHref><Button>Contactez-nous pour recevoir un devis gratuit</Button></Link>
     </DarkDiv>
     </section>
   );
