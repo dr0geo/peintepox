@@ -31,13 +31,16 @@ class MyDocument extends Document {
     return (
       <Html lang="fr">
         <Head>
+          <link rel="preload" href="/fonts/Tajawal-Regular.woff2" as="font" crossOrigin="anonymous" />
+          <link rel="preload" href="/fonts/Tajawal-Bold.woff2" as="font" crossOrigin="anonymous" />
+          <link rel="preload" href="/fonts/Tajawal-Light.woff2" as="font" crossOrigin="anonymous" />
+
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
           <link rel="manifest" href="/site.webmanifest"></link>
-          <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
-          <script noModule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
-          <meta name="google-site-verification" content="cduqIGpunQkpWekArYoLA5qGSJFeaHF7tJs-SrFIsrQ" />
+
         </Head>
         <body>
           <Main />

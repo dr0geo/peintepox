@@ -51,9 +51,9 @@ const Gallery = props => {
   return (
     <Wrapper>
       <List>
-        {props.images.map(image => <li key={image.id}><img src={image.url} alt={image.id} /></li>)}
-        <li key={props.images[0].id}><img src={props.images[0].url} alt={props.images[0].id} /></li>
-        <li key={props.images[1].id}><img src={props.images[1].url} alt={props.images[1].id} /></li>
+        {props.images.map(image => <li key={image.id}><img src={image.url} alt={image.id} loading="lazy" /></li>)}
+        <li key={props.images[0].id}><img src={props.images[0].url} alt={props.images[0].id} loading="lazy" /></li>
+        <li key={props.images[1].id}><img src={props.images[1].url} alt={props.images[1].id} loading="lazy" /></li>
       </List>
     </Wrapper>
   );

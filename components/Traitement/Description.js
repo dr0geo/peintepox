@@ -7,17 +7,17 @@ import Services from '@/components/Services';
 
 const SpecialIconsDiv = styled(IconsDiv)`
   margin-bottom: 15px;
-  max-width: 850px;
+  max-width: 1000px;
   & > figure {
     align-items: center;
     display: flex;
     flex-direction: column;
-    min-width: 330px;
+    min-width: 250px;
     & > img {
       align-self: center;
     }
     & > figcaption {
-      max-width: 400px;
+      max-width: 250px;
     }
     &:last-of-type > figcaption {
       border-bottom: 1px solid black;
@@ -45,7 +45,7 @@ const Description = () => {
             url="/images/icons/traitement/rouille.webp"
           />
           <figure>
-            <img src="/images/icons/traitement/thermolaquage.webp" alt="Thermolaquage" />
+            <img src="/images/icons/traitement/thermolaquage.webp" alt="Thermolaquage" loading="lazy" />
             <figcaption><em><Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">Thermolaquage</a></Link></em></figcaption>
           </figure>
         </SpecialIconsDiv>

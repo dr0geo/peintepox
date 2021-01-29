@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { Call, Mail, Time } from '@styled-icons/ionicons-outline';
 
 const Section = styled.section`
   background-color: #CE2026;
@@ -31,13 +32,11 @@ const StyledDiv = styled.div`
   & + & {
     border-left: 1px solid white;
   }
-  & > ion-icon {
+  & > svg {
     display: inline-block;
-    height: 20px;
     padding-right: 8px;
     position: relative;
-    top: 3px;
-    width: 20px;
+    top: -3px;
   }
   & > h3 {
     display: inline-block;
@@ -71,19 +70,19 @@ const ContactInfo = props => {
   return (
     <Section isHome={props.isHome}>
       <StyledDiv>
-        <ion-icon name="call-outline"></ion-icon>
+        <Call size={20} />
         <h3>Appelez-nous</h3>
         <p>Tel: <Anchor href="tel:+33146540324">01 46 54 03 24</Anchor></p>
         <hr />
       </StyledDiv>
       <StyledDiv>
-        <ion-icon name="mail-outline"></ion-icon>
+        <Mail size={20} />
         <h3>Ecrivez-nous</h3>
         <p>Accédez au <Link href='/contact' passHref><Anchor>formulaire</Anchor></Link></p>
         <hr />
       </StyledDiv>
       <StyledDiv>
-        <ion-icon name="time-outline"></ion-icon>
+        <Time size={20} />
         <h3>Horaires d'ouverture</h3>
         <p>Lun - ven : 7:30 - 12:00 & 13:15 - 18:00</p>
       </StyledDiv>

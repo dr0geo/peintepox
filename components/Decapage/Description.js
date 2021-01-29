@@ -7,7 +7,7 @@ import Background from '@/elements/Background';
 import Services from '@/components/Services';
 
 const SpecialIconsDiv = styled(IconsDiv)`
-  max-width: 850px;
+  max-width: 1000px;
   @media only screen and (max-width: 900px) {
     max-width: 530px;
   }
@@ -63,11 +63,11 @@ const Description = () => {
           />
           <Figure
             name="Mobilier de jardin"
-            url="/images/icons/volet.webp"
+            url="/images/icons/jardin.webp"
           />
           <Figure
             name="Mobilier urbain"
-            url="/images/icons/volet.webp"
+            url="/images/icons/urbain.webp"
           />
         </SpecialIconsDiv>
         <p><strong>Depuis 1945</strong>, nous avons pris en main de nombreux projets de décapage pour le compte de professionnels, de particuliers, d'industries, de collectivités et d'organismes publics.</p>
