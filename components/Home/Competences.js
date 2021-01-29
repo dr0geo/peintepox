@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { Construct, Bulb, Card } from '@styled-icons/ionicons-outline';
+
 import { DarkDiv } from '@/elements/Divisions';
 import { ServicesContainer } from '@/elements/FlexDiv';
 import Button from '@/elements/Button';
@@ -39,10 +41,6 @@ const Circle = styled.div`
   position: relative;
   top: -50px;
   width: 60px;
-  & > ion-icon {
-    height: 40px;
-    width: 40px;
-  }
   & + h3 {
     margin-top: -20px;
   }
@@ -55,17 +53,17 @@ const Competences = () => {
       <h2>Nos atouts</h2>
       <Container>
         <FlexCont>
-          <Circle><ion-icon name="construct-outline"></ion-icon></Circle>
+          <Circle><Construct size={40} /></Circle>
           <h3>Savoir-faire</h3>
           <p>Notre expertise, notre réactivité et notre savoir-faire sont les gages d’une finition soignée.</p>
         </FlexCont>
         <FlexCont>
-          <Circle><ion-icon name="bulb-outline"></ion-icon></Circle>
+          <Circle><Bulb size={40} /></Circle>
           <h3>Expérience</h3>
           <p>Nous sommes spécialisés dans le traitement de surface de pièces métalliques depuis 1945.</p>
         </FlexCont>
         <FlexCont>
-          <Circle><ion-icon name="card-outline"></ion-icon></Circle>
+          <Circle><Card size={40} /></Circle>
           <h3>Tarifs</h3>
           <p>Nous proposons des prestations de qualité à des tarifs concurrentiels.</p>
         </FlexCont>

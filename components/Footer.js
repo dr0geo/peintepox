@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { LogoFacebook, LogoGoogle } from '@styled-icons/ionicons-solid';
 
 const Container = styled.footer`
   background-color: #2f2e2e;
-  }
 `;
 
 const Wrapper = styled.div`
@@ -12,11 +12,9 @@ const Wrapper = styled.div`
   justify-content: space-between;
   margin: auto;
   max-width: 1250px;
-  & ion-icon {
+  & svg {
     fill: white;
-    height: 35px;
     margin-right: 15px;
-    width: 35px;
   }
   @media only screen and (max-width: 900px) {
     align-items: center;
@@ -98,8 +96,8 @@ const Footer = () => {
         <StyledDiv>
           <h4>Suivez Peintepox</h4>
           <div>
-            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" rel="noreferrer" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" rel="noreferrer" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" rel="noreferrer" target="_blank"><LogoFacebook size={35} /></a>
+            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" rel="noreferrer" target="_blank"><LogoGoogle size={35} /></a>
           </div>
         </StyledDiv>
         <StyledDiv>

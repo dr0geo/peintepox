@@ -5,7 +5,7 @@
       "headers" : [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src-elem 'self' https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js; style-src 'self' 'sha256-iHWM79Jc0dceshNe/0pDoPGaXY5XO3trQ1QUBcupKGs=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-TPlbJXmSZ1U5ntjSSV/HOHcgbuZv3nVDZyW6H4gpBYA='; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals;"
+          "value": "default-src 'self'; style-src 'self' 'sha256-iHWM79Jc0dceshNe/0pDoPGaXY5XO3trQ1QUBcupKGs=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-TPlbJXmSZ1U5ntjSSV/HOHcgbuZv3nVDZyW6H4gpBYA='; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals;"
         },
         {
           "key" : "X-Frame-Options",
