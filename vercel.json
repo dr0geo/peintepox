@@ -5,7 +5,7 @@
       "headers" : [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; style-src 'self' 'sha256-iHWM79Jc0dceshNe/0pDoPGaXY5XO3trQ1QUBcupKGs=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-j1Jik8HBFEI38ZelLmQgWC8eR9EowI39SrDqfs+Eo5g=' 'sha256-rSFImXzoGZ3jRUCroXcdA1yAvGRI1NOGQ0afE10FVt4=' 'sha256-VEBevPgczkTsXmXi3oYyrEuqf/Yf1qtkyEhuNvzK7WI='; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals;"
+          "value": "default-src 'self'; style-src 'self' 'sha256-iHWM79Jc0dceshNe/0pDoPGaXY5XO3trQ1QUBcupKGs=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-j1Jik8HBFEI38ZelLmQgWC8eR9EowI39SrDqfs+Eo5g=' 'sha256-rSFImXzoGZ3jRUCroXcdA1yAvGRI1NOGQ0afE10FVt4=' 'sha256-VEBevPgczkTsXmXi3oYyrEuqf/Yf1qtkyEhuNvzK7WI=' 'sha256-fLeRNrkQI2GACD3ysNkpxXp8PdcU51CqnA8PGyQ17oQ=' 'sha256-AbY2rWuQAZT3ZbSGHIBXWDXWYurItGgVtAyNaQ3Ut54=' 'sha256-KrK6iKe18Mc14Y6EVzJ4SVoG6XBS7Q1YhN9fdKVieBA=' 'sha256-xGiZOtbdnY4OBj5f48DgOMkmZiBCpvk6u9TpvfvE/5M='; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals;"
         },
         {
           "key" : "X-Frame-Options",
