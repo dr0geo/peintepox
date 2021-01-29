@@ -45,7 +45,7 @@ const Description = () => {
             url="/images/icons/traitement/rouille.webp"
           />
           <figure>
-            <img src="/images/icons/traitement/thermolaquage.webp" alt="Thermolaquage" />
+            <img src="/images/icons/traitement/thermolaquage.webp" alt="Thermolaquage" loading="lazy" />
             <figcaption><em><Link href="/thermolaquage"><a title="Découvrez nos prestations de thermolaquage">Thermolaquage</a></Link></em></figcaption>
           </figure>
         </SpecialIconsDiv>
