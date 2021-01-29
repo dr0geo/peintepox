@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 900px) {
     align-items: center;
     flex-direction: column;
-    & ion-icon {
+    & svg {
       margin-right: 0;
     }
   }
@@ -96,8 +96,8 @@ const Footer = () => {
         <StyledDiv>
           <h4>Suivez Peintepox</h4>
           <div>
-            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" rel="noreferrer" target="_blank"><LogoFacebook size={35} /></a>
-            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" rel="noreferrer" target="_blank"><LogoGoogle size={35} /></a>
+            <a href="https://www.facebook.com/Thermolaquage-et-sablage-%C3%A0-Bagneux-108736644096546/" rel="noreferrer" target="_blank" title="Page Facebook de Peintepox"><LogoFacebook size={35} /></a>
+            <a href="https://goo.gl/maps/zX1kKst1j9VQGCKX8" rel="noreferrer" target="_blank" title="Page Google de Peintepox"><LogoGoogle size={35} /></a>
           </div>
         </StyledDiv>
         <StyledDiv>
