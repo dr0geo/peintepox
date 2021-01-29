@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { Menu } from '@styled-icons/ionicons-outline';
 
 const Container = styled.header`
   background-color: white;
@@ -61,13 +62,11 @@ const PhoneMenu = styled.div`
   display: none;
   padding-bottom: 20px;
   padding-top: 10px;
-  & > ion-icon {
+  & > svg {
     display: block;
-    height: 30px;
     margin-right: 6px;
     position: relative;
-    top: 1px;
-    width: 30px;
+    top: -3px;
   }
   &:hover {
     cursor: pointer;
@@ -92,7 +91,7 @@ const Header = props => {
     <Container isClicked={props.isClicked}>
       <NavMenu>
         <Link href="/"><a><Logo src="/images/logo.webp" alt="Logo Peintepox" /></a></Link>
-        <PhoneMenu onClick={props.handleClick}><ion-icon name="menu-outline"></ion-icon>MENU</PhoneMenu>
+        <PhoneMenu onClick={props.handleClick}><Menu size={30} />MENU</PhoneMenu>
         <Link href="/" passHref>
           <SpecialLink 
             isActive={props.active === 1 ? true : false}
