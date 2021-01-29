@@ -108,8 +108,8 @@ const Paragraph = styled.p`
 `;
 
 const handleClick = () => {
-  const name = 'geoffroy.vie';
-  const domain = 'gmail.com';
+  const name = 'contact';
+  const domain = 'peintepox.com';
   document.getElementById('ownEmail').setAttribute('value', `${name}@${domain}`);
 }
 
@@ -138,7 +138,7 @@ const ContactForm = () => {
             <input 
               name="_redirectTo" 
               type="hidden" 
-              value="https://peintepox.vercel.app/success" 
+              value="https://peintepox.com/success"
             />
             <Input 
               name="Prenom" 
