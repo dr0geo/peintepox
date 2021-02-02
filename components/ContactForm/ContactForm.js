@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 import Button from '@/elements/Button';
 
 const Wrapper = styled.div`
@@ -107,85 +109,85 @@ const Paragraph = styled.p`
   }
 `;
 
-const handleClick = () => {
-  const name = 'contact';
-  const domain = 'geoffroy-vie.dev';
-  document.getElementById('ownEmail').setAttribute('value', `${name}@${domain}`);
-}
-
 const ContactForm = () => {
+  const router = useRouter();
+
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const contactMessage = {
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      message
+    }
+
+    try {
+      await fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(contactMessage)
+      });
+      router.push('/success');
+    } catch(err) {
+      console.log(err);
+    }
+  }
+
   return (
     <section>
       <h2>Nous nous engageons à vous répondre dans les plus brefs délais</h2>
       <Wrapper>
         <div></div>
         <div>
-          <Form 
-            action="https://api.mailslurp.com/forms" 
-            method="post" 
-            encType="multipart/form-data"
-          >
-            <input 
-              id="ownEmail" 
-              name="_to" 
-              type="hidden"
-            />
-            <input 
-              name="_subject" 
-              type="hidden" 
-              value="Demande via le site Peintepox" 
-            />
-            <input 
-              name="_redirectTo" 
-              type="hidden" 
-              value="https://peintepox.com/success"
-            />
-            <Input 
-              name="Prenom" 
+          <Form onSubmit={handleSubmit}>
+            <Input
               type="text" 
               placeholder="Prénom *" 
+              onChange={e => setFirstName(e.target.value)}
               required
             />
-            <Input 
-              name="Nom" 
+            <Input
               type="text" 
-              placeholder="Nom *" 
+              placeholder="Nom *"
+              onChange={e => setLastName(e.target.value)}
               required
             />
-            <Input 
-              name="Email" 
+            <Input
               type="email" 
-              placeholder="Email *" 
+              placeholder="Email *"
+              onChange={e => setEmail(e.target.value)}
               required
             />
-            <Input 
-              name="Telephone" 
+            <Input
               type="tel" 
               placeholder="Téléphone"
+              onChange={e => setPhoneNumber(e.target.value)}
             />
-            <TextArea 
-              name="Message" 
+            <TextArea
               minLength="10" 
-              placeholder="Ecrivez votre message ici... *" 
+              placeholder="Ecrivez votre message ici... *"
+              onChange={e => setMessage(e.target.value)}
               required
             >
             </TextArea>
             <label htmlFor="attachment">Joindre des fichiers :</label>
             <Input 
-              id="attachment" 
-              multiple 
-              name="files" 
+              multiple
               type="file" 
               accept="image/*,.pdf"
             />
             <p>* tous les champs comprenant une astérisque doivent être remplis</p>
-            <Button 
-              id="submit" 
-              type="submit" 
-              onClick={handleClick}
-            >
-              Envoyer la demande
-            </Button>
+            <Button type="submit">Envoyer la demande</Button>
           </Form>
         </div>
       </Wrapper>
