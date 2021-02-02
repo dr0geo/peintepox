@@ -108,8 +108,8 @@ const Paragraph = styled.p`
 `;
 
 const handleClick = () => {
-  const name = 'contact';
-  const domain = 'peintepox.com';
+  const name = 'peintepox';
+  const domain = 'club-internet.fr';
   document.getElementById('ownEmail').setAttribute('value', `${name}@${domain}`);
 }
 
