@@ -109,7 +109,7 @@ const Paragraph = styled.p`
 
 const handleClick = () => {
   const name = 'contact';
-  const domain = 'peintepox.com';
+  const domain = 'geoffroy-vie.dev';
   document.getElementById('ownEmail').setAttribute('value', `${name}@${domain}`);
 }
 
