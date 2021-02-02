@@ -13,7 +13,7 @@ const handleEmail = async (req, res) => {
 
   const query = {
     from: `${req.body.email}`,
-    to: 'contact@geoffroy-vie.dev',
+    to: 'contact@peintepox.com',
     subject: "Contact via le site Peintepox",
     html: `
       <p>Bonjour,</p>

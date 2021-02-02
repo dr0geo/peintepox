@@ -180,12 +180,6 @@ const ContactForm = () => {
               required
             >
             </TextArea>
-            <label htmlFor="attachment">Joindre des fichiers :</label>
-            <Input 
-              multiple
-              type="file" 
-              accept="image/*,.pdf"
-            />
             <p>* tous les champs comprenant une astérisque doivent être remplis</p>
             <Button type="submit">Envoyer la demande</Button>
           </Form>
