@@ -17,7 +17,7 @@ const Home = props => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Peintepox - Décapage, sablage et peinture</title>
-        <meta name="description" content="Bienvenue sur le site de Peintepox, société implantée à Bagneux (92) et spécialisée en décapage, sablage, traitement anticorrosion, thermolaquage et peinture liquide." />
+        <meta name="description" content="Peintepox, société implantée à Bagneux (92), est spécialisée en décapage, sablage, traitement anticorrosion, thermolaquage et peinture liquide." />
       </Head>
       <Header active={1} isClicked={props.isClicked} handleClick={props.handleClick} />
       <main>
