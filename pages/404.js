@@ -25,7 +25,7 @@ const Error404 = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Erreur 404</title>
+        <title>Peintepox | Erreur 404</title>
         <meta name="robots" content="noindex" />
         <meta name="description" content="La page que vous avez demandé est introuvable." />
       </Head>

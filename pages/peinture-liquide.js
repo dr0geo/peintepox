@@ -12,7 +12,7 @@ const Peinture = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Peinture liquide</title>
+        <title>Peintepox | Peinture liquide</title>
         <meta name="description" content="Découvrez les prestations de peinture liquide proposées par la société Peintépox, située à Bagneux (92)." />
       </Head>
       <Header active={6} isClicked={props.isClicked} handleClick={props.handleClick} />

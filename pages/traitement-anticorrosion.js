@@ -12,7 +12,7 @@ const Traitement = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Traitement anticorrosion</title>
+        <title>Peintepox | Traitement anticorrosion</title>
         <meta name="description" content="Découvrez les prestations de traitement anticorrosion pour vos matériaux métalliques proposées par la société Peintépox, située à Bagneux (92)." />
       </Head>
       <Header active={4} isClicked={props.isClicked} handleClick={props.handleClick} />

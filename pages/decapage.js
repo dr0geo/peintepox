@@ -13,7 +13,7 @@ const Decapage = props => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Peintepox - Décapage</title>
+        <title>Peintepox | Décapage</title>
         <meta name="description" content="Découvrez les prestations de décapage des métaux proposées par la société Peintépox, située à Bagneux (92)." />
       </Head>
       <Header active={2} isClicked={props.isClicked} handleClick={props.handleClick} />
