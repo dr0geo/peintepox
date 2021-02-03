@@ -39,7 +39,7 @@ const Error404 = props => {
           <h2>Retrouvez aussi...</h2>
           <SpecialContainer>
             <Services 
-              bg="/images/chem-pickling.webp" 
+              bg="/images/decapage.webp" 
               name="Décapage" 
               page="/decapage"
             />

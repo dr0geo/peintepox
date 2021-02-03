@@ -29,9 +29,9 @@ const References = () => {
         <br />
         <p>Nous disposons d'une <strong>équipe expérimentée</strong> et d’un atelier bien équipé pour répondre à vos besoins.</p>
         <br />
-        <p>Nos <strong>délais</strong> de réalisation sont <strong>courts</strong> et <strong>respectés</strong>.</p>
+        <p>Nos <strong>délais</strong> de réalisation sont courts et <strong>respectés</strong>.</p>
         <br />
-        <p>Nous mettons tout en œuvre pour un résultat <strong>conforme à vos exigences</strong>.</p>
+        <p>Nous mettons tout en œuvre pour un résultat conforme à vos exigences.</p>
       </WhiteDiv>
       <DarkDiv>
         <h2>Ils nous ont fait confiance</h2>

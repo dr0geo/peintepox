@@ -28,7 +28,7 @@ const Description = () => {
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
           <Services 
-            bg="/images/chem-pickling.webp" 
+            bg="/images/decapage.webp" 
             name="Décapage" 
             page="/decapage"
           />

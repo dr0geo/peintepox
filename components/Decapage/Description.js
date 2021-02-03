@@ -21,7 +21,7 @@ const SpecialWhiteDiv = styled(WhiteDiv)`
 `;
 
 const Description = () => {
-  const bgUrl = '/images/chem-pickling.webp';
+  const bgUrl = '/images/decapage.webp';
 
   return (
     <section>

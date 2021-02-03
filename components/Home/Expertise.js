@@ -21,7 +21,7 @@ const Expertise = () => {
         <p>Nous sommes au service des professionnels, des particuliers, des industries, des collectivités, ainsi que des organismes publics.</p>
         <Container>
           <Services 
-            bg="/images/chem-pickling.webp" 
+            bg="/images/decapage.webp" 
             name="Décapage" 
             page="/decapage" 
             setHeight="350px" 

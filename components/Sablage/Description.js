@@ -47,7 +47,7 @@ const Description = () => {
       <WhiteDiv>
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
-          <Services bg="/images/chem-pickling.webp" name="Décapage" page="/decapage" />
+          <Services bg="/images/decapage.webp" name="Décapage" page="/decapage" />
           <Services bg="/images/corrosion.webp" name="Traitement anticorrosion" page="/traitement-anticorrosion" />
           <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
           <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
