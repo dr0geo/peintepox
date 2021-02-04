@@ -27,7 +27,7 @@ const Description = () => {
     <section>
       <WhiteDiv>
         <h2>Les objectifs du décapage</h2>
-        <p>Nous redonnons aux ouvrages en métal (fer, acier, inox, cuivre, aluminium, etc...) leur <strong>aspect brut</strong>. Ce traitement par immersion est indispensable pour retirer la peinture existente. Grâce à notre <strong>polyvalence</strong>, nous intervenons sur différents types de supports :</p>
+        <p>Nous redonnons aux ouvrages en métal (fer, acier, inox, cuivre, aluminium, etc...) leur <strong>aspect brut</strong>. Ce traitement par immersion est indispensable pour retirer la peinture existante. Grâce à notre <strong>polyvalence</strong>, nous intervenons sur différents types de supports :</p>
         <SpecialIconsDiv>
           <Figure
             name="Radiateurs"
