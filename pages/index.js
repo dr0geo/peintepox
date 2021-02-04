@@ -9,7 +9,7 @@ import References from '@/components/Home/References';
 import Footer from '@/components/Footer';
 
 const Home = props => {
-  const titleUrl = '/images/home.webp';
+  const titleUrl = '/images/peinture.webp';
   const bgUrl = '/images/bg.webp';
   
   return (
