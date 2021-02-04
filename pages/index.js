@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 
 const Home = props => {
   const titleUrl = '/images/peinture.webp';
-  const bgUrl = '/images/bg.webp';
+  const bgUrl = '/images/pistolet-peinture.webp';
   
   return (
     <>

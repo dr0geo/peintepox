@@ -35,21 +35,21 @@ const Expertise = () => {
             setWidth="300px"
           />
           <Services 
-            bg="/images/corrosion.webp" 
+            bg="/images/anticorrosion.webp" 
             name="Traitement anticorrosion" 
             page="/traitement-anticorrosion" 
             setHeight="350px" 
             setWidth="300px"
           />
           <Services 
-            bg="/images/card.webp" 
+            bg="/images/thermolaquage.webp" 
             name="Thermolaquage" 
             page="/thermolaquage" 
             setHeight="350px" 
             setWidth="300px" 
           />
           <Services 
-            bg="/images/liquid.webp" 
+            bg="/images/peinture-liquide.webp" 
             name="Peinture liquide" 
             page="/peinture-liquide" 
             setHeight="350px" 

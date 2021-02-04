@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Peinture = props => {
-  const titleUrl = '/images/liquid.webp';
+  const titleUrl = '/images/peinture-liquide.webp';
 
   return (
     <>

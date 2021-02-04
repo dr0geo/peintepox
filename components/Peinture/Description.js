@@ -13,7 +13,7 @@ const SpecialWhiteDiv = styled(WhiteDiv)`
 `;
 
 const Description = () => {
-  const bgUrl = '/images/home.webp';
+  const bgUrl = '/images/peinture.webp';
 
   return (
     <section>
@@ -38,12 +38,12 @@ const Description = () => {
             page="/sablage"
           />
           <Services 
-            bg="/images/corrosion.webp" 
+            bg="/images/anticorrosion.webp" 
             name="Traitement anticorrosion" 
             page="/traitement-anticorrosion"
           />
           <Services 
-            bg="/images/card.webp" 
+            bg="/images/thermolaquage.webp" 
             name="Thermolaquage" 
             page="/thermolaquage"
           />

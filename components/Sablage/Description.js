@@ -48,9 +48,9 @@ const Description = () => {
         <h2>Retrouvez aussi...</h2>
         <ServicesContainer>
           <Services bg="/images/decapage.webp" name="Décapage" page="/decapage" />
-          <Services bg="/images/corrosion.webp" name="Traitement anticorrosion" page="/traitement-anticorrosion" />
-          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
-          <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
+          <Services bg="/images/anticorrosion.webp" name="Traitement anticorrosion" page="/traitement-anticorrosion" />
+          <Services bg="/images/thermolaquage.webp" name="Thermolaquage" page="/thermolaquage" />
+          <Services bg="/images/peinture-liquide.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>
         <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>
       </WhiteDiv>

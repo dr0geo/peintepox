@@ -6,7 +6,7 @@ import ContactInfo from '@/components/ContactInfo';
 import Footer from '@/components/Footer';
 
 const Thermolaquage = props => {
-  const titleUrl = '/images/card.webp';
+  const titleUrl = '/images/thermolaquage.webp';
 
   return (
     <>
