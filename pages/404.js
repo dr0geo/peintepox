@@ -49,17 +49,17 @@ const Error404 = props => {
               page="/sablage"
             />
             <Services 
-              bg="/images/corrosion.webp" 
+              bg="/images/anticorrosion.webp" 
               name="Traitement anticorrosion" 
               page="/traitement-anticorrosion"
             />
             <Services 
-              bg="/images/card.webp" 
+              bg="/images/thermolaquage.webp" 
               name="Thermolaquage" 
               page="/thermolaquage" 
             />
             <Services 
-              bg="/images/liquid.webp" 
+              bg="/images/peinture-liquide.webp" 
               name="Peinture liquide" 
               page="/peinture-liquide"
             />

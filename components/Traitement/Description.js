@@ -56,8 +56,8 @@ const Description = () => {
         <ServicesContainer>
           <Services bg="/images/decapage.webp" name="Décapage" page="/decapage" />
           <Services bg="/images/sablage.webp" name="Sablage" page="/sablage" />
-          <Services bg="/images/card.webp" name="Thermolaquage" page="/thermolaquage" />
-          <Services bg="/images/liquid.webp" name="Peinture liquide" page="/peinture-liquide" />
+          <Services bg="/images/thermolaquage.webp" name="Thermolaquage" page="/thermolaquage" />
+          <Services bg="/images/peinture-liquide.webp" name="Peinture liquide" page="/peinture-liquide" />
         </ServicesContainer>
         <p>Vous n'êtes pas certain de savoir ce qui correspond le mieux à vos besoins ? N'hésitez pas à <Link href="/contact"><a title="Accédez au formulaire de contact">nous contacter</a></Link>, nous sommes à votre disposition pour vous renseigner.</p>
       </WhiteDiv>
