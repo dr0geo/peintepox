@@ -43,12 +43,15 @@ const StyledDiv = styled.div`
   & > ul a {
     color: white;
   }
-  & > p {
+  & address {
+    font-style: normal;
+  }
+  & p {
     padding-left: 0;
     padding-right: 0;
     text-align: left;
   }
-  & > p > a {
+  & p > a {
     border-bottom: 1px solid white;
     color: white;
   }
@@ -68,7 +71,7 @@ const StyledDiv = styled.div`
       font-weight: 400;
       text-transform: uppercase;
     }
-    & > p {
+    & p {
       text-align: center;
     }
     & > div > a + a {
@@ -112,7 +115,9 @@ const Footer = () => {
         </StyledDiv>
         <StyledDiv>
           <h4>Où nous trouver</h4>
-          <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX<br /><a href="https://www.google.com/maps/place/Peint%C3%A9pox/@48.7997621,2.3000693,15z/data=!4m5!3m4!1s0x0:0x1c1be8ded7e92c91!8m2!3d48.7997621!4d2.3000693" rel="noreferrer" target="_blank">Voir sur Google Maps</a></p>
+          <address>
+            <p>63, rue Alphonse Pluchet<br />92220 BAGNEUX<br /><a href="https://www.google.com/maps/place/Peint%C3%A9pox/@48.7997621,2.3000693,15z/data=!4m5!3m4!1s0x0:0x1c1be8ded7e92c91!8m2!3d48.7997621!4d2.3000693" rel="noreferrer" target="_blank">Voir sur Google Maps</a></p>
+          </address>
         </StyledDiv>
         <StyledDiv>
           <h4>Mentions Légales</h4>
