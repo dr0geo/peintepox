@@ -117,6 +117,8 @@ const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
+  const [fax, setFax] = useState('');
+  const [errorMessage, setErrorMessage] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -126,20 +128,25 @@ const ContactForm = () => {
       lastName,
       email,
       phoneNumber,
-      message
+      message,
+      fax
     }
 
     try {
-      await fetch('/api/email', {
+      const res = await fetch('/api/email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(contactMessage)
       });
-      router.push('/success');
-    } catch(err) {
-      console.log(err);
+      if (res.status === 200) {
+        router.push('/success');
+      } else {
+        throw new Error();
+      }
+    } catch {
+      setErrorMessage('Une erreur s\'est produite, veuillez réessayer');
     }
   }
 
@@ -162,6 +169,11 @@ const ContactForm = () => {
               onChange={e => setLastName(e.target.value)}
               required
             />
+            <input 
+              type="hidden"
+              placeholder="Fax"
+              onChange={e => setFax(e.target.value)}
+            />
             <Input
               type="email" 
               placeholder="Email *"
@@ -182,6 +194,7 @@ const ContactForm = () => {
             </TextArea>
             <p>* tous les champs comprenant une astérisque doivent être remplis</p>
             <Button type="submit">Envoyer la demande</Button>
+            {errorMessage && <p>{errorMessage}</p>}
           </Form>
         </div>
       </Wrapper>
