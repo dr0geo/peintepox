@@ -14,7 +14,7 @@ const handleEmail = async (req, res) => {
 
     const query = {
       from: `${req.body.email}`,
-      to: 'peintepox@club-internet.fr',
+      to: process.env.EMAIL_ADDRESS,
       subject: "Contact via le site Peintepox",
       html: `
         <p>Bonjour,</p>
